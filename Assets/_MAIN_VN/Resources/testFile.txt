@@ -1,7 +1,5 @@
-Godzilla "Hey There!" list(items -f long), playSong("Intro Song" -v 1)
+Godzilla "Hey There!"
 
-setScene("Classroom" -s 5.5)
+Bartender "Hey!"
 
-Bartender "Hey, \"Quote Here\" you!"
-
-Narrator "bla'bla'bla." PlaySong(End, -p 0.5), list(players), saveGame(1 -g all -f simple)
+Narrator "blablabla."
