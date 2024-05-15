@@ -12,7 +12,7 @@ public class DrinkColors : MonoBehaviour
     void Start()
     {
         DrinkColorRenderer = DrinkColor.GetComponent<SpriteRenderer>();
-        InitialColor = DrinkColorRenderer.color;
+        InitialColor = new Color(DrinkColorRenderer.color.r, DrinkColorRenderer.color.g, DrinkColorRenderer.color.b, DrinkColorRenderer.color.a);
         DrinkColor.SetActive(false);
     }
 
@@ -23,7 +23,7 @@ public class DrinkColors : MonoBehaviour
     }
     public void removeColor()
     {
-        DrinkColorRenderer.color = InitialColor;
+        DrinkColorRenderer.color = new Color(InitialColor.r, InitialColor.g, InitialColor.b, InitialColor.a);
         IsActivated = false;
         DrinkColor.SetActive(false);
     }
