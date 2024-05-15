@@ -23,14 +23,14 @@ public class drinkpress : MonoBehaviour
 
     public void IncreaseCounters()
     {
-        if (glasslimit > 3)
+        glasslimit += 1;
+        if (glasslimit > 2)
         {
             return;
         }
         sweatnesscounter.instance.IncreaseSweatness(value1);
         thicknesscounter.instance.IncreaseThickness(value2);
         intensitycounter.instance.Increaseintensity(value3);
-        glasslimit += 1;
        
     }
 }

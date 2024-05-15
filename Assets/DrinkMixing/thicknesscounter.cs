@@ -18,12 +18,12 @@ public class thicknesscounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ThicknessText.text = "Thickness: " + currentThickness.ToString();
+        ThicknessText.text = "Power: " + currentThickness.ToString();
     }
 
     public void IncreaseThickness(int v)
     {
         currentThickness += v;
-        ThicknessText.text = "Thickness: " + currentThickness.ToString();
+        ThicknessText.text = "Power: " + currentThickness.ToString();
     }
 }

@@ -27,7 +27,13 @@ public class canvasdisapear : MonoBehaviour
 
     public void removeCanvas()
     { 
-        canvas.SetActive(false);
+        if (drinkpress.glasslimit < 3)
+        { return; }
+        else
+        {
+            canvas.SetActive(false);
+        }
+        
     }
 
     public void addCanvas()
