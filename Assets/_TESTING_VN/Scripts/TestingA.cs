@@ -10,16 +10,8 @@ namespace TESTING
         DialogueSystem ds;
         TextArchitect architect;
 
-        public TextArchitect.BuildMethod bm = TextArchitect.BuildMethod.instant;
+        public TextArchitect.BuildMethod bm = TextArchitect.BuildMethod.fade;
 
-        string[] lines = new string[5]
-        {
-            "Hey there!",
-            "You are the Bartender here?",
-            "Nice to meet you!",
-            "I guess you already now me.",
-            "Please pour me a Drink."
-        };
 
         // Start is called before the first frame update
         void Start()
