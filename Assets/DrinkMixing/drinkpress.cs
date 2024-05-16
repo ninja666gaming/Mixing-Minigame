@@ -24,7 +24,7 @@ public class drinkpress : MonoBehaviour
     public void IncreaseCounters()
     {
         glasslimit += 1;
-        if (glasslimit > 2)
+        if (glasslimit > 3)
         {
             return;
         }

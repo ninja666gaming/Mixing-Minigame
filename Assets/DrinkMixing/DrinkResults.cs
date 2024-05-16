@@ -4,36 +4,138 @@ using UnityEngine;
 
 public class DrinkResults : MonoBehaviour
 {
-    public int targetIntensity;
-    public int targetThickness;
-    public int targetSweatness;
+    private int targetPower1 = 2;
+    private int targetAnger1 = 0;
+    private int targetLethality2 = 0;
+    private int targetPower2 = 1;
+    private int targetAnger2 = -1;
+    private int targetLethality3 = 0;
+    private int targetPower3 = 0;
+    private int targetAnger3 = -2;
+    private int targetLethality4 = 3;
+    private int targetPower4 = 2;
+    private int targetAnger4 = 0;
+    private int targetLethality5 = 2;
+    private int targetPower5 = 1;
+    private int targetAnger5 = -1;
     public intensitycounter intensitylevel;
     public sweatnesscounter sweatnesslevel;
     public thicknesscounter thicknesslevel;
+    public static int stageCounter = 0;
 
-    public int benchmark = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
 
+    }
+    public void increaseStage()
+    {
+        stageCounter += 1;
+    }
     public void DrinkFinshed()
     {
-        if ((intensitylevel.currentintensity == targetIntensity) && (sweatnesslevel.currentSweatness == targetSweatness) && (thicknesslevel.currentThickness == targetThickness))
-        {
-
-        }
+        if (drinkpress.glasslimit < 3)
+        { return; }
         else
         {
-
+            if (stageCounter == 1)
+            {
+                if (thicknesslevel.currentThickness > targetPower1)
+                {
+                    if (targetAnger1 < sweatnesslevel.currentSweatness)
+                    {
+                        //superwin
+                        Debug.Log("Superwin_1");
+                    }
+                    else
+                    {
+                        Debug.Log("Halfwin_1");
+                    }
+                }
+                else
+                {
+                    Debug.Log("Lose_1");
+                }
+            }
+            if (stageCounter == 2)
+            {
+                if ((intensitylevel.currentintensity > targetLethality2) && (sweatnesslevel.currentSweatness == targetAnger2))
+                {
+                    if (thicknesslevel.currentThickness > targetPower2)
+                    {
+                        Debug.Log("Superwin_2");
+                    }
+                    else
+                    {
+                        Debug.Log("Halfwin_2");
+                    }
+                }
+                else
+                {
+                    Debug.Log("Lose_2");
+                }
+            }
+            if (stageCounter == 3)
+            {
+                if ((intensitylevel.currentintensity > targetLethality3) && (sweatnesslevel.currentSweatness == targetAnger3))
+                {
+                    if (thicknesslevel.currentThickness > targetPower3)
+                    {
+                        Debug.Log("Superwin_3");
+                    }
+                    else
+                    {
+                        Debug.Log("Halfwin_3");
+                    }
+                }
+                else
+                {
+                    Debug.Log("Lose_3");
+                }
+            }
+            if (stageCounter == 4)
+            {
+                if ((thicknesslevel.currentThickness == targetPower4) && (sweatnesslevel.currentSweatness < targetAnger4))
+                {
+                    if (intensitylevel.currentintensity == targetLethality4)
+                    {
+                        Debug.Log("Superwin_4");
+                    }
+                    else
+                    {
+                        Debug.Log("Halfwin_4");
+                    }
+                }
+                else
+                {
+                    Debug.Log("Lose_4");
+                }
+            }
+            if (stageCounter == 5)
+            {
+                if ((intensitylevel.currentintensity >= targetLethality5) && (sweatnesslevel.currentSweatness <= targetAnger5) && (thicknesslevel.currentThickness >= targetPower5))
+                {
+                    if ((intensitylevel.currentintensity == targetLethality5) && (sweatnesslevel.currentSweatness == targetAnger5) && (thicknesslevel.currentThickness == targetPower5))
+                    {
+                        Debug.Log("Superwin_4");
+                    }
+                    else
+                    {
+                        Debug.Log("Halfwin_5");
+                    }
+                }
+                else
+                {
+                    Debug.Log("Lose_5");
+                }
+            }
         }
     }
 }
