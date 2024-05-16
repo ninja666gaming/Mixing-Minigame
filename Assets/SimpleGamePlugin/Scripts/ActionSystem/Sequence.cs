@@ -18,6 +18,12 @@ namespace Course.PrototypeScripting
             for (int i = 0; i < list.Length; i++)
                 actions[i] = (Action)list[i];
         }
+
+        private void Start()
+        {
+            // ExecuteCompleteSequence();
+        }
+
         public virtual void ExecuteCompleteSequence()
         {
             if(allowedGameState != -1)
