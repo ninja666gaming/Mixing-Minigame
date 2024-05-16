@@ -18,12 +18,12 @@ public class sweatnesscounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sweatnessText.text = "Anger: " + currentSweatness.ToString();
+        sweatnessText.text = currentSweatness.ToString();
     }
 
     public void IncreaseSweatness(int v)
     {
         currentSweatness += v;
-        sweatnessText.text = "Anger: " + currentSweatness.ToString();
+        sweatnessText.text = currentSweatness.ToString();
     }
 }

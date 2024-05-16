@@ -15,8 +15,8 @@ public class DrinkResults : MonoBehaviour
     private int targetLethality4 = 3;
     private int targetPower4 = 2;
     private int targetAnger4 = 0;
-    private int targetLethality5 = 2;
-    private int targetPower5 = 1;
+    private int targetLethality5 = 1;
+    private int targetPower5 = 2;
     private int targetAnger5 = -1;
     public intensitycounter intensitylevel;
     public sweatnesscounter sweatnesslevel;
@@ -84,7 +84,7 @@ public class DrinkResults : MonoBehaviour
             }
             if (stageCounter == 3)
             {
-                if ((intensitylevel.currentintensity > targetLethality3) && (sweatnesslevel.currentSweatness == targetAnger3))
+                if ((intensitylevel.currentintensity == targetLethality3) && (sweatnesslevel.currentSweatness == targetAnger3))
                 {
                     if (thicknesslevel.currentThickness > targetPower3)
                     {
@@ -102,7 +102,7 @@ public class DrinkResults : MonoBehaviour
             }
             if (stageCounter == 4)
             {
-                if ((thicknesslevel.currentThickness == targetPower4) && (sweatnesslevel.currentSweatness < targetAnger4))
+                if ((thicknesslevel.currentThickness == targetPower4) && (sweatnesslevel.currentSweatness > targetAnger4))
                 {
                     if (intensitylevel.currentintensity == targetLethality4)
                     {
@@ -124,7 +124,7 @@ public class DrinkResults : MonoBehaviour
                 {
                     if ((intensitylevel.currentintensity == targetLethality5) && (sweatnesslevel.currentSweatness == targetAnger5) && (thicknesslevel.currentThickness == targetPower5))
                     {
-                        Debug.Log("Superwin_4");
+                        Debug.Log("Superwin_5");
                     }
                     else
                     {
