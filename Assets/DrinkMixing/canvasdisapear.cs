@@ -5,6 +5,11 @@ using UnityEngine;
 public class canvasdisapear : MonoBehaviour
 {
     public GameObject canvas;
+    public GameObject CuthuluOrder;
+    public GameObject BlackPlagueOrder;
+    public GameObject GodzillaOrder;
+    public GameObject HivemindOrder;
+    public GameObject AIOrder;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +37,11 @@ public class canvasdisapear : MonoBehaviour
         else
         {
             canvas.SetActive(false);
+            CuthuluOrder.SetActive(false);
+            BlackPlagueOrder.SetActive(false);
+            GodzillaOrder.SetActive(false);
+            HivemindOrder.SetActive(false);
+            AIOrder.SetActive(false);
         }
         
     }
@@ -39,5 +49,25 @@ public class canvasdisapear : MonoBehaviour
     public void addCanvas()
     {
         canvas.SetActive(true);
+        if (DrinkResults.stageCounter == 1)
+        {
+            CuthuluOrder.SetActive(true);
+        }
+        if (DrinkResults.stageCounter == 2)
+        {
+            BlackPlagueOrder.SetActive(true);
+        }
+        if (DrinkResults.stageCounter == 3)
+        {
+            GodzillaOrder.SetActive(true);
+        }
+        if (DrinkResults.stageCounter == 4)
+        {
+            HivemindOrder.SetActive(true);
+        }
+        if (DrinkResults.stageCounter == 5)
+        {
+            AIOrder.SetActive(true);
+        }
     }
 }
