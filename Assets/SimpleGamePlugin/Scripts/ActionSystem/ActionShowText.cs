@@ -1,4 +1,7 @@
-﻿namespace Course.PrototypeScripting
+﻿using UnityEditor.Experimental.GraphView;
+using UnityEngine;
+
+namespace Course.PrototypeScripting
 {
     public class ActionShowText : Action
     {
@@ -12,6 +15,7 @@
         override public void ExecuteAction()
         {
             TextPanel.Instance.SetText(nameToShow,textToShow);
+
             Invoke("GoOn", time);
             wasSkipped = false;
             running = true;
@@ -27,6 +31,8 @@
         {
             if (skippable && UnityEngine.Input.anyKeyDown && running)
                 Skip();
+           // if (nameTextColor == "Godzilla")
+            
         }
 
         void Skip()
@@ -49,5 +55,7 @@
         {
             return nameToShow + ": " + textToShow;
         }
+
+
     }
 }
