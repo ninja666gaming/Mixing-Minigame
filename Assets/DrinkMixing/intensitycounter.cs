@@ -18,12 +18,12 @@ public class intensitycounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        intensityText.text = "Lethality: " + currentintensity.ToString();
+        intensityText.text = currentintensity.ToString();
     }
 
     public void Increaseintensity(int v)
     {
         currentintensity += v;
-        intensityText.text = "Lethality: " + currentintensity.ToString();
+        intensityText.text = currentintensity.ToString();
     }
 }

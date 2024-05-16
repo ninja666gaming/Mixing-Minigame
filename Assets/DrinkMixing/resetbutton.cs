@@ -24,10 +24,10 @@ public class resetbutton : MonoBehaviour
     {
         drinkpress.glasslimit = 0;
         intensityreset.currentintensity = 0;
-        intensityreset.intensityText.text = "Lethality: " + intensityreset.currentintensity.ToString();
+        intensityreset.intensityText.text = intensityreset.currentintensity.ToString();
         thicknessreset.currentThickness = 0;
-        thicknessreset.ThicknessText.text = "Power: " + thicknessreset.currentThickness.ToString();
+        thicknessreset.ThicknessText.text = thicknessreset.currentThickness.ToString();
         sweatnessreset.currentSweatness = 0;
-        sweatnessreset.sweatnessText.text = "Anger: " + sweatnessreset.currentSweatness.ToString();
+        sweatnessreset.sweatnessText.text = sweatnessreset.currentSweatness.ToString();
     }
 }

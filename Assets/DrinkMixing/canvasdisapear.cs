@@ -36,12 +36,12 @@ public class canvasdisapear : MonoBehaviour
         { return; }
         else
         {
-            canvas.SetActive(false);
             CuthuluOrder.SetActive(false);
             BlackPlagueOrder.SetActive(false);
             GodzillaOrder.SetActive(false);
             HivemindOrder.SetActive(false);
             AIOrder.SetActive(false);
+            canvas.SetActive(false);
         }
         
     }
