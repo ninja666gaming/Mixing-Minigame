@@ -1,0 +1,1453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &373264102409808863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 987837442275109257}
+  - component: {fileID: 8625883902411784911}
+  - component: {fileID: 3751685802475025014}
+  - component: {fileID: 8093949900268359155}
+  m_Layer: 5
+  m_Name: Emotions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &987837442275109257
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373264102409808863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4542238068710450482}
+  - {fileID: 6758879906078968124}
+  - {fileID: 7717969457211658615}
+  - {fileID: 6081046840781743634}
+  m_Father: {fileID: 8955404393611817877}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &8625883902411784911
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373264102409808863}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &3751685802475025014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373264102409808863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &8093949900268359155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373264102409808863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!1 &824424334764580765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7562278591881821847}
+  - component: {fileID: 385253769515232514}
+  - component: {fileID: 6645594805720921298}
+  - component: {fileID: 6063910798857964741}
+  - component: {fileID: 5194147040663398210}
+  - component: {fileID: 6602072435789076980}
+  - component: {fileID: 5649046309946181193}
+  - component: {fileID: 4684605460821834421}
+  - component: {fileID: 5777825098710405522}
+  - component: {fileID: 9177482110166916182}
+  - component: {fileID: 8260648260921924820}
+  m_Layer: 0
+  m_Name: Dialogue_BadTaste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7562278591881821847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3894181972747028086}
+  m_Father: {fileID: 8675883517755755267}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &385253769515232514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 6645594805720921298}
+  - {fileID: 6063910798857964741}
+  - {fileID: 5194147040663398210}
+  - {fileID: 6602072435789076980}
+  - {fileID: 5649046309946181193}
+  - {fileID: 4684605460821834421}
+  - {fileID: 5777825098710405522}
+  - {fileID: 9177482110166916182}
+  - {fileID: 8260648260921924820}
+--- !u!114 &6645594805720921298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "GRAAAAR! Das schmeckt aber gar nicht gut! Was hast du denn da reingemixt!
+    F\xFCrchterlich! "
+  time: 100
+  skippable: 1
+--- !u!114 &6063910798857964741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Entschuldige bitte, da muss ich wohl eine falsche Zutat hinzugef\xFCgt
+    haben. Lass mich dir einen neuen Drink mixen! "
+  time: 100
+  skippable: 1
+--- !u!114 &5194147040663398210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: 'GRAAAR! Ohje! Bitte nicht! Ich glaube ich habe genug! '
+  time: 100
+  skippable: 1
+--- !u!114 &6602072435789076980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "In Ordnung. Kann ich dir sonst noch etwas anbieten? Ich habe immer
+    ein offenes Ohr f\xFCr meine G\xE4ste!"
+  time: 100
+  skippable: 1
+--- !u!114 &5649046309946181193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "Ein...offenes Ohr? Ich bin...ziemlich einsam wei\xDFt du... Deswegen
+    bin ich in deine Bar gekommen. UwU"
+  time: 100
+  skippable: 1
+--- !u!114 &4684605460821834421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: Deswegen bin ich in deine Bar gekommen. UwU
+  time: 100
+  skippable: 1
+--- !u!114 &5777825098710405522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "Trotz meiner Gr\xF6\xDFe und Macht f\xFChle ich mich oft isoliert
+    und verloren, niemand versteht mich."
+  time: 100
+  skippable: 1
+--- !u!114 &9177482110166916182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: 'Aber du... du bist anders. '
+  time: 100
+  skippable: 1
+--- !u!114 &8260648260921924820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00d3522e9b7d7943b2200487478556b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conversation: {fileID: 6379208359217746712}
+  type: 0
+  index: 0
+  enableValue: 0
+--- !u!1 &1066736834781429788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3894181972747028086}
+  - component: {fileID: 6379208359217746712}
+  m_Layer: 0
+  m_Name: Conv_Persuasion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3894181972747028086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066736834781429788}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8247615891886841649}
+  - {fileID: 1723156584308501949}
+  - {fileID: 4739452420348106095}
+  m_Father: {fileID: 7562278591881821847}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6379208359217746712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066736834781429788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7f41d0218fcd441a24e0228efaa46e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  welcomeSequence: {fileID: 0}
+  options:
+  - name: A. Lust auf Chaos?
+    text: " Ich m\xF6chte Chaos und Verw\xFCstung in der Oberwelt anrichten! Schlie\xDFe
+      dich mir an! Zusammen k\xF6nnten wir gro\xDFes erreichen! Und wer wei\xDF...
+      vielleicht auch mehr! ;)"
+    enabled: 1
+    endConversationAfterwards: 0
+    sequence: {fileID: 4175649585089010798}
+    open: 1
+  - name: B. Auch ich bin Einsam
+    text: "Ich verstehe deine Einsamkeit. Auch ich f\xFChle mich oft allein und verlassen
+      in dieser Unterwelt. Hilf mir dabei, die Oberwelt zu zerst\xF6ren, damit wir
+      sie zusammen neu aufbauen k\xF6nnen! "
+    enabled: 1
+    endConversationAfterwards: 0
+    sequence: {fileID: 1320487006157073838}
+    open: 1
+  - name: C. Neuer Drink
+    text: "Wie w\xE4re es, wenn ich dir einen neuen Drink mixen w\xFCrde... als Wiedergutmachung!
+      Aufs Haus versteht sich. Der letzte war nur ein Ausrutscher! Und danach erz\xE4hlst
+      du mir mehr von dir. "
+    enabled: 1
+    endConversationAfterwards: 0
+    sequence: {fileID: 6015404932010119060}
+    open: 1
+--- !u!1 &1171165274276072687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8955404393611817877}
+  m_Layer: 0
+  m_Name: Godzilla
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8955404393611817877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171165274276072687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 954.3732, y: 272.32956, z: 380.19333}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3369521145705174839}
+  - {fileID: 987837442275109257}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1280419319912335212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1723156584308501949}
+  - component: {fileID: 1320487006157073838}
+  - component: {fileID: 5529779701931462136}
+  - component: {fileID: 5471414337010803991}
+  m_Layer: 0
+  m_Name: Dialogue_B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1723156584308501949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3894181972747028086}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1320487006157073838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 5529779701931462136}
+  - {fileID: 5471414337010803991}
+--- !u!114 &5529779701931462136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "GRAAR! Du verstehst also wie ich mich f\xFChle..."
+  time: 100
+  skippable: 1
+--- !u!114 &5471414337010803991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: 'Ich habe noch nie jemanden, wie dich getroffen! UwU Lass uns gemeinsam
+    die Welt verbessern! '
+  time: 100
+  skippable: 1
+--- !u!1 &1312854665098416303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7717969457211658615}
+  - component: {fileID: 4545016530454051217}
+  - component: {fileID: 374391020297458334}
+  m_Layer: 5
+  m_Name: Angry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7717969457211658615
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312854665098416303}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.36, y: 4.36, z: 4.36}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 987837442275109257}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 102.6}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4545016530454051217
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312854665098416303}
+  m_CullTransparentMesh: 1
+--- !u!114 &374391020297458334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312854665098416303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1603828527313367497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6758879906078968124}
+  - component: {fileID: 8108880708132849451}
+  - component: {fileID: 2980854606411871814}
+  m_Layer: 5
+  m_Name: Sad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6758879906078968124
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603828527313367497}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.36, y: 4.36, z: 4.36}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 987837442275109257}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 102.6}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8108880708132849451
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603828527313367497}
+  m_CullTransparentMesh: 1
+--- !u!114 &2980854606411871814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603828527313367497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2160497552470237772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6081046840781743634}
+  - component: {fileID: 5151393196656292592}
+  - component: {fileID: 4945260343072737444}
+  m_Layer: 5
+  m_Name: Happy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6081046840781743634
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2160497552470237772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.36, y: 4.36, z: 4.36}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 987837442275109257}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 102.6}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5151393196656292592
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2160497552470237772}
+  m_CullTransparentMesh: 1
+--- !u!114 &4945260343072737444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2160497552470237772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2757625991631724082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8247615891886841649}
+  - component: {fileID: 4175649585089010798}
+  - component: {fileID: 5244202515976788441}
+  m_Layer: 0
+  m_Name: Dialogue_A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8247615891886841649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757625991631724082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3894181972747028086}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4175649585089010798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757625991631724082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 5244202515976788441}
+--- !u!114 &5244202515976788441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757625991631724082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "GRAAR! So wie ich das sehe versucht du doch nur meine Gef\xFChle auszunutzen,
+    um zu bekommen, was du willst! Nein danke! GRAAR! "
+  time: 100
+  skippable: 1
+--- !u!1 &3391513770970861693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8675883517755755267}
+  - component: {fileID: 1393706999740881038}
+  - component: {fileID: 2260387958738728356}
+  - component: {fileID: 9171466403900452052}
+  - component: {fileID: 8811675628019108532}
+  - component: {fileID: 7444170253736697238}
+  - component: {fileID: 1556801084033263675}
+  - component: {fileID: 8099047259333134053}
+  - component: {fileID: 2021002603578251171}
+  - component: {fileID: 6347400039603755901}
+  - component: {fileID: 4848365702148836334}
+  - component: {fileID: 8236228009641112251}
+  - component: {fileID: 5070481069199445812}
+  - component: {fileID: 7785919609275892146}
+  - component: {fileID: 4137124340428565725}
+  m_Layer: 0
+  m_Name: Dialogue_Initial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8675883517755755267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7562278591881821847}
+  - {fileID: 7018897805254684981}
+  m_Father: {fileID: 3369521145705174839}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1393706999740881038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 2260387958738728356}
+  - {fileID: 9171466403900452052}
+  - {fileID: 8811675628019108532}
+  - {fileID: 7444170253736697238}
+  - {fileID: 1556801084033263675}
+  - {fileID: 8099047259333134053}
+  - {fileID: 2021002603578251171}
+  - {fileID: 6347400039603755901}
+  - {fileID: 4848365702148836334}
+  - {fileID: 8236228009641112251}
+  - {fileID: 5070481069199445812}
+  - {fileID: 7785919609275892146}
+  - {fileID: 4137124340428565725}
+--- !u!114 &2260387958738728356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: 
+  textToShow: UwU Girl Godzilla betritt die Bar
+  time: 100
+  skippable: 1
+--- !u!114 &9171466403900452052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "GRAAAAAR! Diese Bar ist ja hinrei\xDFend!"
+  time: 100
+  skippable: 1
+--- !u!114 &8811675628019108532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "Ich habe geh\xF6rt, dass es hier die besten Cocktails der Unterwelt
+    gibt! UwU "
+  time: 100
+  skippable: 1
+--- !u!114 &7444170253736697238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: Wenn du nach einem guten Cocktail suchst... dann bist du hier auf jeden
+    Fall richtig ;)
+  time: 100
+  skippable: 1
+--- !u!114 &1556801084033263675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Ich habe eine besondere Empfehlung f\xFCr dich! "
+  time: 100
+  skippable: 1
+--- !u!114 &8099047259333134053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: GRAAAR! Da bin ich jetzt aber gespannt ;)
+  time: 100
+  skippable: 1
+--- !u!114 &2021002603578251171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: Vielleicht bin ich auch auf der Suche nach einem knackigen Barkeeper....
+    GRAAAR! UwU
+  time: 100
+  skippable: 1
+--- !u!114 &6347400039603755901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Wieso erz\xE4hlst du mir nicht erst einmal ein wenig \xFCber dich? "
+  time: 100
+  skippable: 1
+--- !u!114 &4848365702148836334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "Naja am liebsten zerst\xF6re ich Geb\xE4ude und verw\xFCste St\xE4dte!"
+  time: 100
+  skippable: 1
+--- !u!114 &8236228009641112251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: 'Und was machst du gerne in deiner Freizeit? '
+  time: 100
+  skippable: 1
+--- !u!114 &5070481069199445812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: Ich experimentiere mit verschiedenen Drinks und anderen Mixturen.
+  time: 100
+  skippable: 1
+--- !u!114 &7785919609275892146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Manche Getr\xE4nke haben wahrlich atemberaubende Effekte ;)"
+  time: 100
+  skippable: 1
+--- !u!114 &4137124340428565725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: 
+  textToShow: Bob beginnt einen individuellen Cocktail zu mischen
+  time: 100
+  skippable: 1
+--- !u!1 &3739821261340043768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3369521145705174839}
+  m_Layer: 0
+  m_Name: Godzilla_Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3369521145705174839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3739821261340043768}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8675883517755755267}
+  m_Father: {fileID: 8955404393611817877}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5349953705763796095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4542238068710450482}
+  - component: {fileID: 1614663970032257261}
+  - component: {fileID: 1779707837262265160}
+  m_Layer: 5
+  m_Name: Neutral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4542238068710450482
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5349953705763796095}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.36, y: 4.36, z: 4.36}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 987837442275109257}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 102.6}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1614663970032257261
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5349953705763796095}
+  m_CullTransparentMesh: 1
+--- !u!114 &1779707837262265160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5349953705763796095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &7183682189823395625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7018897805254684981}
+  - component: {fileID: 6026063683332175276}
+  - component: {fileID: 3945091594653821148}
+  - component: {fileID: 1570585314374621189}
+  - component: {fileID: 6987038000476227648}
+  - component: {fileID: 2968462503950996344}
+  - component: {fileID: 2495303646307110382}
+  - component: {fileID: 3284244386265396999}
+  - component: {fileID: 8370959296924814455}
+  - component: {fileID: 2882938098882468261}
+  m_Layer: 0
+  m_Name: Dialogue_GoodTaste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7018897805254684981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8675883517755755267}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6026063683332175276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 3945091594653821148}
+  - {fileID: 1570585314374621189}
+  - {fileID: 6987038000476227648}
+  - {fileID: 2968462503950996344}
+  - {fileID: 2495303646307110382}
+  - {fileID: 3284244386265396999}
+  - {fileID: 8370959296924814455}
+  - {fileID: 2882938098882468261}
+--- !u!114 &3945091594653821148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: 'GRAAAAR! Wow! Das ist das Leckerste, was ich je getrunken habe! '
+  time: 100
+  skippable: 1
+--- !u!114 &1570585314374621189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Freut mich, dass er dir schmeckt! Kann ich sonst noch etwas f\xFCr
+    dich tun? "
+  time: 100
+  skippable: 1
+--- !u!114 &6987038000476227648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "GRAAR! Wie w\xE4re es mit deiner HOLO-ID? Dann k\xF6nnte ich dich
+    mal anrufen...UwU "
+  time: 100
+  skippable: 1
+--- !u!114 &2968462503950996344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: Meine HOLO-ID?
+  time: 100
+  skippable: 1
+--- !u!114 &2495303646307110382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Klar, aber nur unter einer Bedingung: Du musst f\xFCr mich ein wenig
+    Chaos stiften und mir dabei helfen, die Oberwelt zu zerst\xF6ren! "
+  time: 100
+  skippable: 1
+--- !u!114 &3284244386265396999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "Die Oberwelt zerst\xF6ren?"
+  time: 100
+  skippable: 1
+--- !u!114 &8370959296924814455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "GRAAAR! Ich steh auf Zerst\xF6rung!"
+  time: 100
+  skippable: 1
+--- !u!114 &2882938098882468261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "Das h\xE4tte ich gar nicht von dir erwartet! DU bist ja noch sch\xE4rfer
+    als gedacht! Zusammen k\xF6nnen wir alles plattmachen! Wie romantisch! UWU"
+  time: 100
+  skippable: 1
+--- !u!1 &7589772985806909198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4739452420348106095}
+  - component: {fileID: 6015404932010119060}
+  - component: {fileID: 5072490621824312150}
+  m_Layer: 0
+  m_Name: Dialogue_C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4739452420348106095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3894181972747028086}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6015404932010119060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 5072490621824312150}
+--- !u!114 &5072490621824312150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: GRAAR! Na gut, ich gebe dir noch eine Chance!
+  time: 100
+  skippable: 1
