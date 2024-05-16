@@ -1,1 +1,1 @@
-# Mixing-Minigame 2
+# Mixing-Minigame
