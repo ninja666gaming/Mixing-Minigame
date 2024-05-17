@@ -37,77 +37,30 @@ public class DrinkResults : MonoBehaviour
     {
 
     }
-    public void increaseStage()
-    {
-        stageCounter += 1;
-    }
     public void DrinkFinshed()
     {
         if (drinkpress.glasslimit < 3)
         { return; }
         else
         {
-            if (stageCounter == 1)
+            if (stageCounter == 5)
             {
-                if (thicknesslevel.currentThickness > targetPower1)
+                if ((intensitylevel.currentintensity >= targetLethality5) && (sweatnesslevel.currentSweatness <= targetAnger5) && (thicknesslevel.currentThickness >= targetPower5))
                 {
-                    if (targetAnger1 < sweatnesslevel.currentSweatness)
+                    if ((intensitylevel.currentintensity == targetLethality5) && (sweatnesslevel.currentSweatness == targetAnger5) && (thicknesslevel.currentThickness == targetPower5))
                     {
-                        //superwin
-                        goodTaste.SetActive(true);
-                        Debug.Log("Superwin_1");
-                    }
-                    else
-                    {
-                        goodTaste.SetActive(true);
-                        Debug.Log("Halfwin_1");
-                    }
-                }
-                else
-                {
-                    badTaste.SetActive(true);
-                    Debug.Log("Lose_1");
-                }
-            }
-            if (stageCounter == 2)
-            {
-                if ((intensitylevel.currentintensity > targetLethality2) && (sweatnesslevel.currentSweatness == targetAnger2))
-                {
-                    if (thicknesslevel.currentThickness > targetPower2)
-                    {
-                        Debug.Log("Superwin_2");
+                        Debug.Log("Superwin_5");
                         goodTaste.SetActive(true);
                     }
                     else
                     {
-                        Debug.Log("Halfwin_2");
+                        Debug.Log("Halfwin_5");
                         goodTaste.SetActive(true);
                     }
                 }
                 else
                 {
-                    Debug.Log("Lose_2");
-                    badTaste.SetActive(true);
-                }
-            }
-            if (stageCounter == 3)
-            {
-                if ((intensitylevel.currentintensity == targetLethality3) && (sweatnesslevel.currentSweatness == targetAnger3))
-                {
-                    if (thicknesslevel.currentThickness > targetPower3)
-                    {
-                        Debug.Log("Superwin_3");
-                        goodTaste.SetActive(true);
-                    }
-                    else
-                    {
-                        Debug.Log("Halfwin_3");
-                        goodTaste.SetActive(true);
-                    }
-                }
-                else
-                {
-                    Debug.Log("Lose_3");
+                    Debug.Log("Lose_5");
                     badTaste.SetActive(true);
                 }
             }
@@ -131,27 +84,74 @@ public class DrinkResults : MonoBehaviour
                     Debug.Log("Lose_4");
                     badTaste.SetActive(true);
                 }
+                stageCounter += 1;
             }
-            if (stageCounter == 5)
+            if (stageCounter == 3)
             {
-                if ((intensitylevel.currentintensity >= targetLethality5) && (sweatnesslevel.currentSweatness <= targetAnger5) && (thicknesslevel.currentThickness >= targetPower5))
+                if ((intensitylevel.currentintensity == targetLethality3) && (sweatnesslevel.currentSweatness == targetAnger3))
                 {
-                    if ((intensitylevel.currentintensity == targetLethality5) && (sweatnesslevel.currentSweatness == targetAnger5) && (thicknesslevel.currentThickness == targetPower5))
+                    if (thicknesslevel.currentThickness > targetPower3)
                     {
-                        Debug.Log("Superwin_5");
+                        Debug.Log("Superwin_3");
                         goodTaste.SetActive(true);
                     }
                     else
                     {
-                        Debug.Log("Halfwin_5");
+                        Debug.Log("Halfwin_3");
                         goodTaste.SetActive(true);
                     }
                 }
                 else
                 {
-                    Debug.Log("Lose_5");
+                    Debug.Log("Lose_3");
                     badTaste.SetActive(true);
                 }
+                stageCounter += 1;
+            }
+            if (stageCounter == 2)
+            {
+                if ((intensitylevel.currentintensity > targetLethality2) && (sweatnesslevel.currentSweatness == targetAnger2))
+                {
+                    if (thicknesslevel.currentThickness > targetPower2)
+                    {
+                        Debug.Log("Superwin_2");
+                        goodTaste.SetActive(true);
+                    }
+                    else
+                    {
+                        Debug.Log("Halfwin_2");
+                        goodTaste.SetActive(true);
+                    }
+                }
+                else
+                {
+                    Debug.Log("Lose_2");
+                    badTaste.SetActive(true);
+                }
+                stageCounter += 1;
+            }
+            if (stageCounter == 1)
+            {
+                if (thicknesslevel.currentThickness > targetPower1)
+                {
+                    if (targetAnger1 < sweatnesslevel.currentSweatness)
+                    {
+                        //superwin
+                        goodTaste.SetActive(true);
+                        Debug.Log("Superwin_1");
+                    }
+                    else
+                    {
+                        goodTaste.SetActive(true);
+                        Debug.Log("Halfwin_1");
+                    }
+                }
+                else
+                {
+                    badTaste.SetActive(true);
+                    Debug.Log("Lose_1");
+                }
+            stageCounter += 1;
             }
         }
     }
