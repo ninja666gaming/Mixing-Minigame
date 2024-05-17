@@ -156,5 +156,4 @@ public class DrinkResults : MonoBehaviour
             }
         }
     }
-    resetbutton.resetpressed()
 }
