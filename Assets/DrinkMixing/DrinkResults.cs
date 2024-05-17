@@ -65,6 +65,7 @@ public class DrinkResults : MonoBehaviour
                 }
                 else
                 {
+                    badTaste.SetActive(true);
                     Debug.Log("Lose_1");
                 }
             }
