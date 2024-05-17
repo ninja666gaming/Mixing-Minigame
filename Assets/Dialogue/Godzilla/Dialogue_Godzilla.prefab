@@ -1284,6 +1284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8512046221131161010}
   - component: {fileID: 1984665643987193383}
+  - component: {fileID: 3740351510451305427}
   - component: {fileID: 1153379538233776264}
   - component: {fileID: 1207413330675070703}
   - component: {fileID: 735993602332433040}
@@ -1350,6 +1351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedGameState: -1
   actions:
+  - {fileID: 3740351510451305427}
   - {fileID: 1153379538233776264}
   - {fileID: 1207413330675070703}
   - {fileID: 735993602332433040}
@@ -1379,6 +1381,20 @@ MonoBehaviour:
   - {fileID: 4185964969833792644}
   - {fileID: 8122995546933927110}
   - {fileID: 7814298905602015217}
+--- !u!114 &3740351510451305427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559003244804848824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  state: 1
 --- !u!114 &1153379538233776264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1999,6 +2015,7 @@ GameObject:
   - component: {fileID: 2861623185303295885}
   - component: {fileID: 5573185644043174313}
   - component: {fileID: 7590715664888465707}
+  - component: {fileID: 8640459314916237633}
   - component: {fileID: 5255522717097386846}
   m_Layer: 0
   m_Name: Conv_Propeller_B
@@ -2049,6 +2066,7 @@ MonoBehaviour:
   - {fileID: 2861623185303295885}
   - {fileID: 5573185644043174313}
   - {fileID: 7590715664888465707}
+  - {fileID: 8640459314916237633}
   - {fileID: 5255522717097386846}
 --- !u!114 &2815515002269980988
 MonoBehaviour:
@@ -2228,6 +2246,20 @@ MonoBehaviour:
   obj: {fileID: 0}
   state: 1
 --- !u!114 &7590715664888465707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2890261881300675692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  state: 1
+--- !u!114 &8640459314916237633
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2758,6 +2790,7 @@ GameObject:
   - component: {fileID: 72532841938992408}
   - component: {fileID: 4649336149738900253}
   - component: {fileID: 8184962214969754254}
+  - component: {fileID: 5404616308652655041}
   - component: {fileID: 640191125589794123}
   m_Layer: 0
   m_Name: Conv_Propeller_A
@@ -2806,6 +2839,7 @@ MonoBehaviour:
   - {fileID: 72532841938992408}
   - {fileID: 4649336149738900253}
   - {fileID: 8184962214969754254}
+  - {fileID: 5404616308652655041}
   - {fileID: 640191125589794123}
 --- !u!114 &3433344967040947834
 MonoBehaviour:
@@ -2957,6 +2991,20 @@ MonoBehaviour:
   obj: {fileID: 0}
   state: 1
 --- !u!114 &8184962214969754254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5393793518558038456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  state: 1
+--- !u!114 &5404616308652655041
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3775,6 +3823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9203777630731227664}
   - component: {fileID: 5580699215555188361}
+  - component: {fileID: 2916334851878168944}
   - component: {fileID: 2877445337663881072}
   - component: {fileID: 6281564887267455711}
   - component: {fileID: 9076345381239938295}
@@ -3827,6 +3876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedGameState: -1
   actions:
+  - {fileID: 2916334851878168944}
   - {fileID: 2877445337663881072}
   - {fileID: 6281564887267455711}
   - {fileID: 9076345381239938295}
@@ -3842,6 +3892,20 @@ MonoBehaviour:
   - {fileID: 3480182570137523878}
   - {fileID: 4112856630037965675}
   - {fileID: 3197979431032287428}
+--- !u!114 &2916334851878168944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9035294269994951692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  state: 1
 --- !u!114 &2877445337663881072
 MonoBehaviour:
   m_ObjectHideFlags: 0
