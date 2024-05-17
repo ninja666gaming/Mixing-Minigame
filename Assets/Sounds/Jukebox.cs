@@ -8,15 +8,17 @@ public class Jukebox : MonoBehaviour
     [SerializeField] AudioClip sceneSong;
     [SerializeField] AudioClip mixingSong;
     private AudioClip playing;
-    public float FadeTime = 100f;
+    public float FadeTime = 0.5f;
+    private float mixingVolume = 0.09f;
+    private float sceneVolume = 0.04f;
+    private bool isInitialEnable = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        playing = sceneSong;
-        audiosource.clip = playing;
-        audiosource.Play();
 
+        playing = sceneSong;
+        audiosource.volume = sceneVolume;
     }
 
     // Update is called once per frame
@@ -27,7 +29,14 @@ public class Jukebox : MonoBehaviour
 
     private void OnEnable()
     {
-        EndMixing();
+        if (isInitialEnable)
+        {
+            isInitialEnable = false;
+        }
+        else
+        {
+            EndMixing();
+        }
     }
 
     private void OnDisable()
@@ -41,7 +50,7 @@ public class Jukebox : MonoBehaviour
         playing = mixingSong;
         audiosource.clip = playing;
         audiosource.Play();
-        StartCoroutine(FadeIn(audiosource, FadeTime));
+        StartCoroutine(FadeIn(audiosource, FadeTime, mixingVolume));
         Debug.Log("Mixing Song");
     }
     public void EndMixing()
@@ -50,7 +59,7 @@ public class Jukebox : MonoBehaviour
         playing = sceneSong;
         audiosource.clip = playing;
         audiosource.Play();
-        StartCoroutine(FadeIn(audiosource, FadeTime));
+        StartCoroutine(FadeIn(audiosource, FadeTime, sceneVolume));
         Debug.Log("Scene Song");
     }
 
@@ -61,26 +70,24 @@ public class Jukebox : MonoBehaviour
 
         while (audioSource.volume > 0)
         {
-        audioSource.volume -= startVolume * Time.deltaTime / FadeTime;
-
-        yield return null;
-        }
-
-        audioSource.Stop();
-        audioSource.volume = startVolume;
-    }
-    public static IEnumerator FadeIn(AudioSource audioSource, float FadeTime)
-    {
-        float startVolume = audioSource.volume;
-
-        while (audioSource.volume < 0.4)
-        {
-            audioSource.volume += startVolume * Time.deltaTime / FadeTime;
+            Debug.Log(audioSource.volume);
+            audioSource.volume -= startVolume * Time.deltaTime / FadeTime;
 
             yield return null;
         }
 
         audioSource.Stop();
-        audioSource.volume = startVolume;
+    }
+    public static IEnumerator FadeIn(AudioSource audioSource, float FadeTime, float targetVolume)
+    {
+        float startVolume = audioSource.volume;
+
+        while (audioSource.volume < targetVolume)
+        {
+            Debug.Log(audioSource.volume);
+            audioSource.volume += startVolume * Time.deltaTime / FadeTime;
+
+            yield return null;
+        }
     }
 }

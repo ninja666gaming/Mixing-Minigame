@@ -212,7 +212,7 @@ MonoBehaviour:
   audiosource: {fileID: 3391856013881711407}
   sceneSong: {fileID: 8300000, guid: c2e144396f1260243bf851312fcf8071, type: 3}
   mixingSong: {fileID: 8300000, guid: b3ef76885865a0944a5bb931243c203d, type: 3}
-  FadeTime: 10
+  FadeTime: 0.05
 --- !u!1 &824424334764580765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,11 +1554,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c2e144396f1260243bf851312fcf8071, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.02
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
