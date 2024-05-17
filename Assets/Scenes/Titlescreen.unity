@@ -443,8 +443,8 @@ GameObject:
   - component: {fileID: 385072191}
   - component: {fileID: 385072189}
   - component: {fileID: 385072181}
-  - component: {fileID: 385072193}
   - component: {fileID: 385072187}
+  - component: {fileID: 385072193}
   - component: {fileID: 385072194}
   - component: {fileID: 385072178}
   m_Layer: 0
@@ -490,8 +490,8 @@ MonoBehaviour:
   - {fileID: 385072191}
   - {fileID: 385072189}
   - {fileID: 385072181}
-  - {fileID: 385072193}
   - {fileID: 385072187}
+  - {fileID: 385072193}
   - {fileID: 385072194}
   - {fileID: 385072178}
 --- !u!4 &385072180
