@@ -391,7 +391,8 @@ GameObject:
   - component: {fileID: 5235782678075750415}
   - component: {fileID: 7406125715833765016}
   - component: {fileID: 1878804457989691118}
-  - component: {fileID: 6475137211300637466}
+  - component: {fileID: 8622280962251040586}
+  - component: {fileID: 3460658560419438056}
   m_Layer: 0
   m_Name: Dialogue_A
   m_TagString: Untagged
@@ -433,7 +434,8 @@ MonoBehaviour:
   - {fileID: 5235782678075750415}
   - {fileID: 7406125715833765016}
   - {fileID: 1878804457989691118}
-  - {fileID: 6475137211300637466}
+  - {fileID: 8622280962251040586}
+  - {fileID: 3460658560419438056}
 --- !u!114 &5229690127434232553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,7 +518,7 @@ MonoBehaviour:
     ich stimme deinem Vorhaben zu."
   time: 100
   skippable: 1
---- !u!114 &6475137211300637466
+--- !u!114 &8622280962251040586
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -525,10 +527,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 2167881904353595133}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  obj: {fileID: 2714388761382187651}
+  state: 0
+--- !u!114 &3460658560419438056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2167881904353595133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sequenceToStart: {fileID: 0}
 --- !u!1 &2366293479060700749
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,7 +560,8 @@ GameObject:
   - component: {fileID: 7247894518197512943}
   - component: {fileID: 8243603930721762165}
   - component: {fileID: 3827859700445987407}
-  - component: {fileID: 230319907963136136}
+  - component: {fileID: 6535021282733433478}
+  - component: {fileID: 5231427773331966890}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_C
   m_TagString: Untagged
@@ -586,7 +603,8 @@ MonoBehaviour:
   - {fileID: 7247894518197512943}
   - {fileID: 8243603930721762165}
   - {fileID: 3827859700445987407}
-  - {fileID: 230319907963136136}
+  - {fileID: 6535021282733433478}
+  - {fileID: 5231427773331966890}
 --- !u!114 &7548537593661898171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -667,7 +685,7 @@ MonoBehaviour:
     du willst, und das respektiere ich. In Ordnung. Ich werde dir helfen. "
   time: 100
   skippable: 1
---- !u!114 &230319907963136136
+--- !u!114 &6535021282733433478
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -676,10 +694,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 2366293479060700749}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  obj: {fileID: 2714388761382187651}
+  state: 0
+--- !u!114 &5231427773331966890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2366293479060700749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sequenceToStart: {fileID: 0}
 --- !u!1 &2522239525651052452
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,7 +726,8 @@ GameObject:
   - component: {fileID: 1894659051086180592}
   - component: {fileID: 1033759212831193468}
   - component: {fileID: 4093191568981245142}
-  - component: {fileID: 8537668046058800939}
+  - component: {fileID: 2405015509309846838}
+  - component: {fileID: 5658183848967371214}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_B
   m_TagString: Untagged
@@ -735,7 +768,8 @@ MonoBehaviour:
   - {fileID: 1894659051086180592}
   - {fileID: 1033759212831193468}
   - {fileID: 4093191568981245142}
-  - {fileID: 8537668046058800939}
+  - {fileID: 2405015509309846838}
+  - {fileID: 5658183848967371214}
 --- !u!114 &257287708370273941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -800,7 +834,7 @@ MonoBehaviour:
     verlasse, ohne dir den Kopf abzurei\xDFen!\_"
   time: 100
   skippable: 1
---- !u!114 &8537668046058800939
+--- !u!114 &2405015509309846838
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -809,10 +843,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 2522239525651052452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  obj: {fileID: 3055940274217697376}
+  state: 0
+--- !u!114 &5658183848967371214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2522239525651052452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sequenceToStart: {fileID: 0}
 --- !u!1 &2714388761382187651
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,7 +897,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -110, y: 170}
-  m_SizeDelta: {x: 2000, y: 1700}
+  m_SizeDelta: {x: 2360, y: 1640}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9164191854288593471
 CanvasRenderer:
@@ -901,7 +949,8 @@ GameObject:
   - component: {fileID: 3027435783736491361}
   - component: {fileID: 4476405090934477700}
   - component: {fileID: 8425507536989576503}
-  - component: {fileID: 4569141899200351784}
+  - component: {fileID: 1695322080151495928}
+  - component: {fileID: 1640898304390737793}
   m_Layer: 0
   m_Name: Dialogue_B
   m_TagString: Untagged
@@ -940,7 +989,8 @@ MonoBehaviour:
   actions:
   - {fileID: 4476405090934477700}
   - {fileID: 8425507536989576503}
-  - {fileID: 4569141899200351784}
+  - {fileID: 1695322080151495928}
+  - {fileID: 1640898304390737793}
 --- !u!114 &4476405090934477700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -976,7 +1026,7 @@ MonoBehaviour:
     froh sein, wenn ich diese Bar verlasse, ohne dir den Kopf abzurei\xDFen! "
   time: 100
   skippable: 1
---- !u!114 &4569141899200351784
+--- !u!114 &1695322080151495928
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -985,10 +1035,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 2996061123633321891}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  obj: {fileID: 3055940274217697376}
+  state: 0
+--- !u!114 &1640898304390737793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2996061123633321891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sequenceToStart: {fileID: 0}
 --- !u!1 &3055940274217697376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,7 +1089,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -110, y: 170}
-  m_SizeDelta: {x: 2000, y: 1700}
+  m_SizeDelta: {x: 2360, y: 1640}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &523533928340154718
 CanvasRenderer:
@@ -1101,7 +1165,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -110, y: 170}
-  m_SizeDelta: {x: 2000, y: 1700}
+  m_SizeDelta: {x: 2360, y: 1640}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5249045606599448548
 CanvasRenderer:
@@ -1883,7 +1947,8 @@ GameObject:
   - component: {fileID: 3592756158174382191}
   - component: {fileID: 897909262478423747}
   - component: {fileID: 740564093153272200}
-  - component: {fileID: 4553656024033690379}
+  - component: {fileID: 7048803115005667935}
+  - component: {fileID: 2861901705628278016}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_A
   m_TagString: Untagged
@@ -1924,7 +1989,8 @@ MonoBehaviour:
   - {fileID: 3592756158174382191}
   - {fileID: 897909262478423747}
   - {fileID: 740564093153272200}
-  - {fileID: 4553656024033690379}
+  - {fileID: 7048803115005667935}
+  - {fileID: 2861901705628278016}
 --- !u!114 &3129669602238549025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1989,7 +2055,7 @@ MonoBehaviour:
     f\xFChren kann. Gehen wir es an!"
   time: 100
   skippable: 1
---- !u!114 &4553656024033690379
+--- !u!114 &7048803115005667935
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1998,10 +2064,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 5161124442386380853}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  obj: {fileID: 2714388761382187651}
+  state: 0
+--- !u!114 &2861901705628278016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161124442386380853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sequenceToStart: {fileID: 0}
 --- !u!1 &5837959726675656641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2014,7 +2094,8 @@ GameObject:
   - component: {fileID: 7722496658448129883}
   - component: {fileID: 400387204908228431}
   - component: {fileID: 7964821331295553408}
-  - component: {fileID: 8910584114856129191}
+  - component: {fileID: 7211462548844392587}
+  - component: {fileID: 2281539911085824023}
   m_Layer: 0
   m_Name: Dialogue_C
   m_TagString: Untagged
@@ -2053,7 +2134,8 @@ MonoBehaviour:
   actions:
   - {fileID: 400387204908228431}
   - {fileID: 7964821331295553408}
-  - {fileID: 8910584114856129191}
+  - {fileID: 7211462548844392587}
+  - {fileID: 2281539911085824023}
 --- !u!114 &400387204908228431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2088,7 +2170,7 @@ MonoBehaviour:
     gut gelaunt bin und dein Leben verschonen werde! Lebe wohl.
   time: 100
   skippable: 1
---- !u!114 &8910584114856129191
+--- !u!114 &7211462548844392587
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2097,10 +2179,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 5837959726675656641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  obj: {fileID: 3055940274217697376}
+  state: 0
+--- !u!114 &2281539911085824023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5837959726675656641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sequenceToStart: {fileID: 0}
 --- !u!1 &6585983511834511982
 GameObject:
   m_ObjectHideFlags: 0
@@ -2124,7 +2220,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6585983511834511982}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.62677, y: 267.67044, z: -380.19333}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2422,7 +2518,10 @@ GameObject:
   - component: {fileID: 6070261290033044232}
   - component: {fileID: 3432261983163437591}
   - component: {fileID: 6734493319787981445}
-  - component: {fileID: 3465489522401315147}
+  - component: {fileID: 2653916486508297348}
+  - component: {fileID: 2915588787014141538}
+  - component: {fileID: 2007473375067667206}
+  - component: {fileID: 8756828554665511499}
   m_Layer: 0
   m_Name: Bestellung
   m_TagString: Untagged
@@ -2463,7 +2562,10 @@ MonoBehaviour:
   - {fileID: 6070261290033044232}
   - {fileID: 3432261983163437591}
   - {fileID: 6734493319787981445}
-  - {fileID: 3465489522401315147}
+  - {fileID: 2653916486508297348}
+  - {fileID: 2915588787014141538}
+  - {fileID: 2007473375067667206}
+  - {fileID: 8756828554665511499}
 --- !u!114 &1637998663302071754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2530,7 +2632,7 @@ MonoBehaviour:
   textToShow: "Ein \u201CSassy Sour\u201D, kommt sofort!  "
   time: 100
   skippable: 1
---- !u!114 &3465489522401315147
+--- !u!114 &2653916486508297348
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2539,10 +2641,53 @@ MonoBehaviour:
   m_GameObject: {fileID: 7746076563650767376}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sequenceToStart: {fileID: 4397872112098639309}
+  obj: {fileID: 0}
+  state: 1
+--- !u!114 &2915588787014141538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7746076563650767376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  state: 1
+--- !u!114 &2007473375067667206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7746076563650767376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  state: 1
+--- !u!114 &8756828554665511499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7746076563650767376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  state: 0
 --- !u!1 &8245538608102794416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,7 +2705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &529619721328768509
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2579,7 +2724,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -110, y: 170}
-  m_SizeDelta: {x: 2000, y: 1700}
+  m_SizeDelta: {x: 2360, y: 1640}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3330591638153893922
 CanvasRenderer:

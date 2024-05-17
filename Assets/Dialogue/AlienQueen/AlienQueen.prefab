@@ -84,17 +84,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3909981576692122885, guid: 64ab119ba3be93d4dbc3ace7705f643f, type: 3}
-      propertyPath: obj
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6585983511834511982, guid: 64ab119ba3be93d4dbc3ace7705f643f, type: 3}
       propertyPath: m_Name
       value: AlienQueen_Dialogue
-      objectReference: {fileID: 0}
-    - target: {fileID: 8191496291769876789, guid: 64ab119ba3be93d4dbc3ace7705f643f, type: 3}
-      propertyPath: obj
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64ab119ba3be93d4dbc3ace7705f643f, type: 3}
@@ -150,6 +142,10 @@ PrefabInstance:
     - target: {fileID: 1209880051982871699, guid: 2825cde2e5a387748ab076c4ebe1e1de, type: 3}
       propertyPath: m_Name
       value: Logic
+      objectReference: {fileID: 0}
+    - target: {fileID: 3774374631233338497, guid: 2825cde2e5a387748ab076c4ebe1e1de, type: 3}
+      propertyPath: sceneName
+      value: (K)4RenScene
       objectReference: {fileID: 0}
     - target: {fileID: 4234519739060939160, guid: 2825cde2e5a387748ab076c4ebe1e1de, type: 3}
       propertyPath: m_audioClip

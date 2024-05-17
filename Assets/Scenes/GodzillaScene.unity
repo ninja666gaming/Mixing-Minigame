@@ -2842,6 +2842,10 @@ PrefabInstance:
       propertyPath: obj
       value: 
       objectReference: {fileID: 1228623351}
+    - target: {fileID: 2429419235429240374, guid: 27d7597f904689240b3dbd86cf80f459, type: 3}
+      propertyPath: sceneName
+      value: AlienQueenScene
+      objectReference: {fileID: 0}
     - target: {fileID: 3004272159233221672, guid: 27d7597f904689240b3dbd86cf80f459, type: 3}
       propertyPath: m_Enabled
       value: 1
