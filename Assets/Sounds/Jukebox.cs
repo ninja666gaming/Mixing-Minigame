@@ -70,7 +70,7 @@ public class Jukebox : MonoBehaviour
 
         while (audioSource.volume > 0)
         {
-            Debug.Log(audioSource.volume);
+            //Debug.Log(audioSource.volume);
             audioSource.volume -= startVolume * Time.deltaTime / FadeTime;
 
             yield return null;
@@ -84,7 +84,7 @@ public class Jukebox : MonoBehaviour
 
         while (audioSource.volume < targetVolume)
         {
-            Debug.Log(audioSource.volume);
+            //Debug.Log(audioSource.volume);
             audioSource.volume += startVolume * Time.deltaTime / FadeTime;
 
             yield return null;
