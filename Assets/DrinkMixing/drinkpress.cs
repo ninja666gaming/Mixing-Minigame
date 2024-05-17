@@ -9,6 +9,7 @@ public class drinkpress : MonoBehaviour
     public int value2;
     public int value3;
     public static int glasslimit = 0;
+    public AudioSource poursource;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,7 @@ public class drinkpress : MonoBehaviour
         {
             return;
         }
+        poursource.Play();
         sweatnesscounter.instance.IncreaseSweatness(value1);
         thicknesscounter.instance.IncreaseThickness(value2);
         intensitycounter.instance.Increaseintensity(value3);
