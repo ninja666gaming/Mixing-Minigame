@@ -1,50 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &99645269212036073
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1533513064119016214}
-  - component: {fileID: 6078088920526073338}
-  m_Layer: 0
-  m_Name: BadEndingStarter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1533513064119016214
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99645269212036073}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8955404393611817877}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6078088920526073338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 99645269212036073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45bb1078a2fe85146a7e075513dc03cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  seq: {fileID: 385253769515232514}
 --- !u!1 &246541292146880250
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,7 +96,7 @@ RectTransform:
   - {fileID: 7717969457211658615}
   - {fileID: 6081046840781743634}
   m_Father: {fileID: 8955404393611817877}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -297,7 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 0}
-  state: 1
+  state: 0
 --- !u!114 &1505476507855665589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,7 +461,6 @@ GameObject:
   - component: {fileID: 1632673652305868224}
   - component: {fileID: 4798763739161447903}
   - component: {fileID: 7273763831328161497}
-  - component: {fileID: 5998216871627579415}
   - component: {fileID: 1965146550944577817}
   - component: {fileID: 5358666360782180734}
   - component: {fileID: 365983076909508534}
@@ -564,7 +518,6 @@ MonoBehaviour:
   allowedGameState: -1
   actions:
   - {fileID: 7273763831328161497}
-  - {fileID: 5998216871627579415}
   - {fileID: 1965146550944577817}
   - {fileID: 5358666360782180734}
   - {fileID: 365983076909508534}
@@ -602,20 +555,6 @@ MonoBehaviour:
     die besten Drinks der Unterwelt! '
   time: 100
   skippable: 1
---- !u!114 &5998216871627579415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862584487452093607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 5349953705763796095}
-  state: 1
 --- !u!114 &1965146550944577817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1006,9 +945,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2570301934562527798}
-  - {fileID: 2265696707418095756}
-  - {fileID: 1533513064119016214}
-  - {fileID: 7304764917599532144}
   - {fileID: 3369521145705174839}
   - {fileID: 987837442275109257}
   m_Father: {fileID: 0}
@@ -1031,6 +967,7 @@ GameObject:
   - component: {fileID: 2924224350664207835}
   - component: {fileID: 1422977889096475624}
   - component: {fileID: 5471414337010803991}
+  - component: {fileID: 419105243082982464}
   - component: {fileID: 654955143464699881}
   m_Layer: 0
   m_Name: Dialogue_B
@@ -1075,6 +1012,7 @@ MonoBehaviour:
   - {fileID: 2924224350664207835}
   - {fileID: 1422977889096475624}
   - {fileID: 5471414337010803991}
+  - {fileID: 419105243082982464}
   - {fileID: 654955143464699881}
 --- !u!114 &454777350065734475
 MonoBehaviour:
@@ -1183,6 +1121,20 @@ MonoBehaviour:
   textToShow: "Da k\xF6nnte mir eine Ablenkung vielleicht ganz guttun. Ich bin dabei!"
   time: 100
   skippable: 1
+--- !u!114 &419105243082982464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
 --- !u!114 &654955143464699881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1365,7 +1317,7 @@ GameObject:
   - component: {fileID: 18204967647966625}
   - component: {fileID: 4063767951997350763}
   - component: {fileID: 1496251258026288688}
-  - component: {fileID: 4279142703137978439}
+  - component: {fileID: 2702478783260259925}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_C
   m_TagString: Untagged
@@ -1409,7 +1361,7 @@ MonoBehaviour:
   - {fileID: 18204967647966625}
   - {fileID: 4063767951997350763}
   - {fileID: 1496251258026288688}
-  - {fileID: 4279142703137978439}
+  - {fileID: 2702478783260259925}
 --- !u!114 &5805449789265915252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1522,7 +1474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 2160497552470237772}
   state: 0
---- !u!114 &4279142703137978439
+--- !u!114 &2702478783260259925
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1531,10 +1483,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1767117772947844738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sequenceToStart: {fileID: 6231700243293202502}
 --- !u!1 &1968099827112273771
 GameObject:
   m_ObjectHideFlags: 0
@@ -1549,7 +1501,8 @@ GameObject:
   - component: {fileID: 7603261242005154146}
   - component: {fileID: 7059282388837992857}
   - component: {fileID: 44230235371711513}
-  - component: {fileID: 5632649616888453092}
+  - component: {fileID: 1631263809103901286}
+  - component: {fileID: 6511350193332899171}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_B
   m_TagString: Untagged
@@ -1590,7 +1543,8 @@ MonoBehaviour:
   - {fileID: 7603261242005154146}
   - {fileID: 7059282388837992857}
   - {fileID: 44230235371711513}
-  - {fileID: 5632649616888453092}
+  - {fileID: 1631263809103901286}
+  - {fileID: 6511350193332899171}
 --- !u!114 &4306218525725660762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1653,7 +1607,7 @@ MonoBehaviour:
     um deinen egoistischen Motiven zu nutzen! '
   time: 100
   skippable: 1
---- !u!114 &5632649616888453092
+--- !u!114 &1631263809103901286
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1662,10 +1616,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 1968099827112273771}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  obj: {fileID: 1312854665098416303}
+  state: 0
+--- !u!114 &6511350193332899171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968099827112273771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sequenceToStart: {fileID: 6231700243293202502}
 --- !u!1 &2160497552470237772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,6 +1724,7 @@ GameObject:
   - component: {fileID: 7703310011480381490}
   - component: {fileID: 8890385317142224453}
   - component: {fileID: 5244202515976788441}
+  - component: {fileID: 5468912565538021969}
   - component: {fileID: 6025951282908170507}
   m_Layer: 0
   m_Name: Dialogue_A
@@ -1797,6 +1766,7 @@ MonoBehaviour:
   - {fileID: 7703310011480381490}
   - {fileID: 8890385317142224453}
   - {fileID: 5244202515976788441}
+  - {fileID: 5468912565538021969}
   - {fileID: 6025951282908170507}
 --- !u!114 &6066879170744676427
 MonoBehaviour:
@@ -1862,6 +1832,20 @@ MonoBehaviour:
     zerst\xF6ren?! Du kannst dir deine Drinks f\xFCr alle Ewigkeit sonst wohin schieben!"
   time: 100
   skippable: 1
+--- !u!114 &5468912565538021969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757625991631724082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 0
 --- !u!114 &6025951282908170507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1903,6 +1887,7 @@ GameObject:
   - component: {fileID: 4711096413543783052}
   - component: {fileID: 4212553704996481687}
   - component: {fileID: 5343044658946667040}
+  - component: {fileID: 8649300937504505219}
   - component: {fileID: 2977534717753018243}
   m_Layer: 0
   m_Name: Dialogue_Initial
@@ -1959,6 +1944,7 @@ MonoBehaviour:
   - {fileID: 4711096413543783052}
   - {fileID: 4212553704996481687}
   - {fileID: 5343044658946667040}
+  - {fileID: 8649300937504505219}
   - {fileID: 2977534717753018243}
 --- !u!114 &6505825318981986738
 MonoBehaviour:
@@ -2227,6 +2213,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 2160497552470237772}
   state: 0
+--- !u!114 &8649300937504505219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 1
 --- !u!114 &2977534717753018243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2275,7 +2275,7 @@ Transform:
   - {fileID: 7562278591881821847}
   - {fileID: 7018897805254684981}
   m_Father: {fileID: 8955404393611817877}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3859117642733402621
 GameObject:
@@ -2420,96 +2420,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &6199629676552861549
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7304764917599532144}
-  - component: {fileID: 1963636793947729176}
-  m_Layer: 0
-  m_Name: GoodEndingStarter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &7304764917599532144
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6199629676552861549}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8955404393611817877}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1963636793947729176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6199629676552861549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45bb1078a2fe85146a7e075513dc03cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  seq: {fileID: 6026063683332175276}
---- !u!1 &6426014894000020224
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2265696707418095756}
-  - component: {fileID: 5386209667890883252}
-  m_Layer: 0
-  m_Name: InitialDialogueStarter
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2265696707418095756
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6426014894000020224}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8955404393611817877}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5386209667890883252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6426014894000020224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45bb1078a2fe85146a7e075513dc03cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  seq: {fileID: 1393706999740881038}
 --- !u!1 &7183682189823395625
 GameObject:
   m_ObjectHideFlags: 0
@@ -2590,7 +2500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 0}
-  state: 1
+  state: 0
 --- !u!114 &7144935147736072146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2747,6 +2657,7 @@ GameObject:
   - component: {fileID: 3369148047877218433}
   - component: {fileID: 2179617804875814131}
   - component: {fileID: 2399075898936739680}
+  - component: {fileID: 6822111265944596561}
   - component: {fileID: 4647684327375245927}
   m_Layer: 0
   m_Name: Dialogue_C
@@ -2791,6 +2702,7 @@ MonoBehaviour:
   - {fileID: 3369148047877218433}
   - {fileID: 2179617804875814131}
   - {fileID: 2399075898936739680}
+  - {fileID: 6822111265944596561}
   - {fileID: 4647684327375245927}
 --- !u!114 &5031454396417339357
 MonoBehaviour:
@@ -2899,6 +2811,20 @@ MonoBehaviour:
   textToShow: Aber zuerst mixt du mir einen Drink, der hoffentlich etwas besser schmeckt!
   time: 100
   skippable: 1
+--- !u!114 &6822111265944596561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
 --- !u!114 &4647684327375245927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2922,7 +2848,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3405549456015931799}
   - component: {fileID: 3800937440737900414}
-  - component: {fileID: 726555350395633125}
   - component: {fileID: 3286630938023650580}
   - component: {fileID: 636528187076109195}
   - component: {fileID: 4064672090400531652}
@@ -2982,7 +2907,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedGameState: -1
   actions:
-  - {fileID: 726555350395633125}
   - {fileID: 3286630938023650580}
   - {fileID: 636528187076109195}
   - {fileID: 4064672090400531652}
@@ -3006,20 +2930,6 @@ MonoBehaviour:
   - {fileID: 184168116702318884}
   - {fileID: 5534663151151839514}
   - {fileID: 4642909095365379535}
---- !u!114 &726555350395633125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9159280608249462914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 5349953705763796095}
-  state: 1
 --- !u!114 &3286630938023650580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3375,7 +3285,8 @@ GameObject:
   - component: {fileID: 4817065801838782031}
   - component: {fileID: 3118448406562695395}
   - component: {fileID: 3188405033856623365}
-  - component: {fileID: 531711894939046852}
+  - component: {fileID: 6745996630524843057}
+  - component: {fileID: 2146313634365617616}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_A
   m_TagString: Untagged
@@ -3418,7 +3329,8 @@ MonoBehaviour:
   - {fileID: 4817065801838782031}
   - {fileID: 3118448406562695395}
   - {fileID: 3188405033856623365}
-  - {fileID: 531711894939046852}
+  - {fileID: 6745996630524843057}
+  - {fileID: 2146313634365617616}
 --- !u!114 &1386548803371130094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3514,7 +3426,7 @@ MonoBehaviour:
     schlimmer sein als alles, was du dir vorstellen kannst."
   time: 100
   skippable: 1
---- !u!114 &531711894939046852
+--- !u!114 &6745996630524843057
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3523,10 +3435,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 9209628641190684922}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  obj: {fileID: 1312854665098416303}
+  state: 0
+--- !u!114 &2146313634365617616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209628641190684922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sequenceToStart: {fileID: 6231700243293202502}
 --- !u!1001 &7646093541460917977
 PrefabInstance:
   m_ObjectHideFlags: 0
