@@ -76,7 +76,6 @@ Transform:
   m_Children:
   - {fileID: 1632673652305868224}
   - {fileID: 3405549456015931799}
-  - {fileID: 9003406638765188746}
   m_Father: {fileID: 8675883517755755267}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -95,13 +94,13 @@ MonoBehaviour:
   welcomeSequence: {fileID: 0}
   options:
   - name: "A. Erz\xE4hl mir von dir."
-    text: "A. Erz\xE4hl mir von dir."
+    text: A. Du bist hier richtig!
     enabled: 1
     endConversationAfterwards: 1
     sequence: {fileID: 4798763739161447903}
     open: 1
   - name: "B. Was treibt eine Sch\xF6nheit hierher?"
-    text: "B. Was treibt so eine Sch\xF6nheit hierher?"
+    text: "B. Erz\xE4hl mir von dir."
     enabled: 1
     endConversationAfterwards: 1
     sequence: {fileID: 3800937440737900414}
@@ -280,20 +279,6 @@ GameObject:
   - component: {fileID: 2370662498669842182}
   - component: {fileID: 1404016128056676190}
   - component: {fileID: 6602072435789076980}
-  - component: {fileID: 5649046309946181193}
-  - component: {fileID: 4012423873294033887}
-  - component: {fileID: 8544705142772276679}
-  - component: {fileID: 6579151198987195362}
-  - component: {fileID: 4477292115752133452}
-  - component: {fileID: 8895908656510315029}
-  - component: {fileID: 4684605460821834421}
-  - component: {fileID: 7972300401659601764}
-  - component: {fileID: 645253447714208506}
-  - component: {fileID: 5777825098710405522}
-  - component: {fileID: 6311145905280769042}
-  - component: {fileID: 1008311584923677219}
-  - component: {fileID: 9177482110166916182}
-  - component: {fileID: 2649744228791265185}
   - component: {fileID: 7955870193127866339}
   - component: {fileID: 8260648260921924820}
   m_Layer: 0
@@ -345,20 +330,6 @@ MonoBehaviour:
   - {fileID: 2370662498669842182}
   - {fileID: 1404016128056676190}
   - {fileID: 6602072435789076980}
-  - {fileID: 5649046309946181193}
-  - {fileID: 4012423873294033887}
-  - {fileID: 8544705142772276679}
-  - {fileID: 6579151198987195362}
-  - {fileID: 4477292115752133452}
-  - {fileID: 8895908656510315029}
-  - {fileID: 4684605460821834421}
-  - {fileID: 7972300401659601764}
-  - {fileID: 645253447714208506}
-  - {fileID: 5777825098710405522}
-  - {fileID: 6311145905280769042}
-  - {fileID: 1008311584923677219}
-  - {fileID: 9177482110166916182}
-  - {fileID: 2649744228791265185}
   - {fileID: 7955870193127866339}
   - {fileID: 8260648260921924820}
 --- !u!114 &1014392551188714954
@@ -388,7 +359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: Hier, dein Cocktail. Eine Moonlight Margarita!
+  textToShow: 'Darf ich vorstellen: Der Eternal Hellfire!'
   time: 100
   skippable: 1
 --- !u!114 &5954396122454794092
@@ -431,9 +402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "GRAAAAR! Das schmeckt aber gar nicht gut! Was hast du denn da reingemixt!
-    F\xFCrchterlich! "
+  nameToShow: Die Pest
+  textToShow: 'Hilfe! Das ist ja widerlich! Wie kannst du mir so einen Schrott andrehen??! '
   time: 100
   skippable: 1
 --- !u!114 &6063910798857964741
@@ -449,8 +419,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: "Entschuldige bitte, da muss ich wohl eine falsche Zutat hinzugef\xFCgt
-    haben. Lass mich dir einen neuen Drink mixen! "
+  textToShow: "Du wolltest doch etwas Feuriges! Da dir der Drink nicht schmeckt,
+    h\xE4tte ich ein anderes Angebot f\xFCr dich, das dir besser gefallen d\xFCrfte.
+    Wie w\xE4re es, wenn du mir dabei hilfst, die Oberwelt zu zerst\xF6ren? Mit deiner
+    Macht w\xE4ren wir unaufhaltsam! Au\xDFerdem geht der n\xE4chste Drink aufs Haus!  "
   time: 100
   skippable: 1
 --- !u!114 &1183826272596065862
@@ -493,8 +465,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: 'GRAAAR! Ohje! Bitte nicht! Ich glaube ich habe genug! '
+  nameToShow: Die Pest
+  textToShow: Du hast recht. Ich besitze diese Macht!
   time: 100
   skippable: 1
 --- !u!114 &2370662498669842182
@@ -537,218 +509,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Bob der Bartender
-  textToShow: "In Ordnung. Kann ich dir sonst noch etwas anbieten? Ich habe immer
-    ein offenes Ohr f\xFCr meine G\xE4ste!"
+  nameToShow: Die Pest
+  textToShow: 'Aber wieso sollte ich dir helfen? '
   time: 100
   skippable: 1
---- !u!114 &5649046309946181193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: Ein...offenes Ohr?
-  time: 100
-  skippable: 1
---- !u!114 &4012423873294033887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 5349953705763796095}
-  state: 0
---- !u!114 &8544705142772276679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 1603828527313367497}
-  state: 1
---- !u!114 &6579151198987195362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "Ich bin...ziemlich einsam wei\xDFt du..."
-  time: 100
-  skippable: 1
---- !u!114 &4477292115752133452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 1603828527313367497}
-  state: 0
---- !u!114 &8895908656510315029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
-  state: 1
---- !u!114 &4684605460821834421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: Deswegen bin ich in deine Bar gekommen. UwU
-  time: 100
-  skippable: 1
---- !u!114 &7972300401659601764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
-  state: 0
---- !u!114 &645253447714208506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 1603828527313367497}
-  state: 1
---- !u!114 &5777825098710405522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "Trotz meiner Gr\xF6\xDFe und Macht f\xFChle ich mich oft isoliert
-    und verloren, niemand versteht mich."
-  time: 100
-  skippable: 1
---- !u!114 &6311145905280769042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 1603828527313367497}
-  state: 0
---- !u!114 &1008311584923677219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
-  state: 1
---- !u!114 &9177482110166916182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: 'Aber du... du bist anders. '
-  time: 100
-  skippable: 1
---- !u!114 &2649744228791265185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 824424334764580765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
-  state: 0
 --- !u!114 &7955870193127866339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -762,7 +526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 5349953705763796095}
-  state: 1
+  state: 0
 --- !u!114 &8260648260921924820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -791,22 +555,22 @@ GameObject:
   - component: {fileID: 4798763739161447903}
   - component: {fileID: 7273763831328161497}
   - component: {fileID: 5998216871627579415}
-  - component: {fileID: 9203239736721113028}
   - component: {fileID: 1965146550944577817}
-  - component: {fileID: 8848552782084290413}
+  - component: {fileID: 5358666360782180734}
   - component: {fileID: 365983076909508534}
   - component: {fileID: 4765128462300234686}
-  - component: {fileID: 526796207371505519}
+  - component: {fileID: 827619662622331730}
   - component: {fileID: 677076511381740276}
   - component: {fileID: 2754311130192262897}
-  - component: {fileID: 4312591197358827062}
-  - component: {fileID: 6496183980982503395}
+  - component: {fileID: 9154403836688621724}
   - component: {fileID: 7104863840761751169}
+  - component: {fileID: 4312591197358827062}
+  - component: {fileID: 4044084569719266706}
   - component: {fileID: 2584498471841000385}
+  - component: {fileID: 6496183980982503395}
   - component: {fileID: 3735440717682562311}
-  - component: {fileID: 4765119010340020296}
+  - component: {fileID: 3551680002465177445}
   - component: {fileID: 920823978675958033}
-  - component: {fileID: 7306560297989978541}
   m_Layer: 0
   m_Name: Smalltalk_A
   m_TagString: Untagged
@@ -845,22 +609,22 @@ MonoBehaviour:
   actions:
   - {fileID: 7273763831328161497}
   - {fileID: 5998216871627579415}
-  - {fileID: 9203239736721113028}
   - {fileID: 1965146550944577817}
-  - {fileID: 8848552782084290413}
+  - {fileID: 5358666360782180734}
   - {fileID: 365983076909508534}
   - {fileID: 4765128462300234686}
-  - {fileID: 526796207371505519}
+  - {fileID: 827619662622331730}
   - {fileID: 677076511381740276}
   - {fileID: 2754311130192262897}
-  - {fileID: 4312591197358827062}
-  - {fileID: 6496183980982503395}
+  - {fileID: 9154403836688621724}
   - {fileID: 7104863840761751169}
+  - {fileID: 4312591197358827062}
+  - {fileID: 4044084569719266706}
   - {fileID: 2584498471841000385}
+  - {fileID: 6496183980982503395}
   - {fileID: 3735440717682562311}
-  - {fileID: 4765119010340020296}
+  - {fileID: 3551680002465177445}
   - {fileID: 920823978675958033}
-  - {fileID: 7306560297989978541}
 --- !u!114 &7273763831328161497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -874,7 +638,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: "Wieso erz\xE4hlst du mir nicht erst einmal ein wenig \xFCber dich?"
+  textToShow: 'Wenn das so ist, dann bist du hier an der richtigen Adresse. Ich mache
+    die besten Drinks der Unterwelt! '
   time: 100
   skippable: 1
 --- !u!114 &5998216871627579415
@@ -890,20 +655,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 5349953705763796095}
-  state: 0
---- !u!114 &9203239736721113028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862584487452093607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 1312854665098416303}
   state: 1
 --- !u!114 &1965146550944577817
 MonoBehaviour:
@@ -917,11 +668,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "GRAAR! Am liebsten zerst\xF6re ich Geb\xE4ude und verw\xFCste St\xE4dte!"
+  nameToShow: Die Pest
+  textToShow: "Die besten Drinks der Unterwelt, sagst du? Ich will f\xFCr dich hoffen,
+    dass du recht hast.  "
   time: 100
   skippable: 1
---- !u!114 &8848552782084290413
+--- !u!114 &5358666360782180734
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -933,7 +685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 1312854665098416303}
+  obj: {fileID: 5349953705763796095}
   state: 0
 --- !u!114 &365983076909508534
 MonoBehaviour:
@@ -961,11 +713,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: 'Und was machst du gerne in deiner Freizeit? '
+  nameToShow: Bob der Bartender
+  textToShow: "Kein Grund, passiv-aggressiv zu werden. Was m\xF6chtest du trinken? "
   time: 100
   skippable: 1
---- !u!114 &526796207371505519
+--- !u!114 &827619662622331730
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1005,46 +757,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Bob der Bartender
-  textToShow: "Ich bin Barkeeper aus Leidenschaft. Ich experimentiere mit verschiedenen
-    Drinks und anderen Mixturen. Manche Getr\xE4nke haben wahrlich atemberaubende
-    Effekte ;)"
+  nameToShow: Die Pest
+  textToShow: "Heute gel\xFCstet es mir nach einem Drink mit ordentlich Feuer!"
   time: 100
   skippable: 1
---- !u!114 &4312591197358827062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862584487452093607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Bob der Bartender
-  textToShow: Wenn du nach einem guten Cocktail suchst... dann bist du hier auf jeden
-    Fall richtig ;)
-  time: 100
-  skippable: 1
---- !u!114 &6496183980982503395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862584487452093607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Bob der Bartender
-  textToShow: "Ich habe eine besondere Empfehlung f\xFCr dich! "
-  time: 100
-  skippable: 1
---- !u!114 &7104863840761751169
+--- !u!114 &9154403836688621724
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1057,6 +774,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &7104863840761751169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 1
+--- !u!114 &4312591197358827062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "n letzter Zeit hatte ich nicht viel, wor\xFCber ich mich freuen konnte. 
+    Ich muss die Leere in mir f\xFCllen."
+  time: 100
+  skippable: 1
+--- !u!114 &4044084569719266706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
   state: 0
 --- !u!114 &2584498471841000385
 MonoBehaviour:
@@ -1072,6 +834,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 2160497552470237772}
   state: 1
+--- !u!114 &6496183980982503395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "\xDCberrasche mich! "
+  time: 100
+  skippable: 1
 --- !u!114 &3735440717682562311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1084,12 +862,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: GRAAAR! Da bin ich jetzt aber gespannt. ;) Vielleicht bin ich auch
-    auf der Suche nach einem knackigen Barkeeper.... GRAAAR! UwU
+  nameToShow: Bob der Bartender
+  textToShow: "Ich glaube, ich habe genau das Richtige f\xFCr dich!  "
   time: 100
   skippable: 1
---- !u!114 &4765119010340020296
+--- !u!114 &3551680002465177445
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1117,84 +894,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 5349953705763796095}
   state: 1
---- !u!114 &7306560297989978541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862584487452093607}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b00d3522e9b7d7943b2200487478556b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  conversation: {fileID: 6437235029475266884}
-  type: 0
-  index: 0
-  enableValue: 0
---- !u!1 &923903122572910888
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9003406638765188746}
-  - component: {fileID: 6437235029475266884}
-  m_Layer: 0
-  m_Name: Conv_Propeller
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9003406638765188746
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923903122572910888}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -954.3732, y: -272.32956, z: -380.19333}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8629767359083819845}
-  - {fileID: 2836525267394042398}
-  m_Father: {fileID: 5247422602530911333}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6437235029475266884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 923903122572910888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c7f41d0218fcd441a24e0228efaa46e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  welcomeSequence: {fileID: 0}
-  options:
-  - name: A
-    text: "A. \xDCbrigens: Mir gef\xE4llt dein Propellerhut! Sieht echt s\xFC\xDF
-      aus ;)"
-    enabled: 1
-    endConversationAfterwards: 1
-    sequence: {fileID: 6825671502162199513}
-    open: 1
-  - name: B
-    text: "B. Mir gef\xE4llt dein h\xFCbsches Schleifchen! Du siehst so unschuldig
-      aus ;)"
-    enabled: 1
-    endConversationAfterwards: 1
-    sequence: {fileID: 8742082242987604639}
-    open: 1
 --- !u!1 &1066736834781429788
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,20 +944,19 @@ MonoBehaviour:
   welcomeSequence: {fileID: 0}
   options:
   - name: A. Lust auf Chaos?
-    text: A. Lust auf Chaos?
+    text: "A. Lust auf Verw\xFCstung und gratis Drinks?"
     enabled: 1
     endConversationAfterwards: 1
     sequence: {fileID: 4175649585089010798}
     open: 1
   - name: B. Auch ich bin Einsam
-    text: B. Auch ich bin Einsam.
+    text: B. Du bist sicher nicht ohne Grund hier, oder?
     enabled: 1
     endConversationAfterwards: 1
     sequence: {fileID: 1320487006157073838}
     open: 1
   - name: C. Neuer Drink
-    text: "C. Auch ich sp\xFCre eine Verbundenheit zu dir. Seit Jahren habe ich einen
-      Plan!"
+    text: C. Auf die alten Tage nochmal?
     enabled: 1
     endConversationAfterwards: 1
     sequence: {fileID: 6015404932010119060}
@@ -1273,7 +971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8955404393611817877}
   m_Layer: 0
-  m_Name: Cthulhu
+  m_Name: Pest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1375,9 +1073,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: "Ich verstehe deine Einsamkeit. Auch ich f\xFChle mich oft allein und
-    verlassen in dieser Unterwelt. Hilf mir dabei, die Oberwelt zu zerst\xF6ren,
-    damit wir sie zusammen neu aufbauen k\xF6nnen! "
+  textToShow: "Sag du es mir! Scheinbar muss dich etwas Bestimmtes in meine Bar gef\xFChrt
+    haben... Du bist sicherlich nicht ohne Grund hier. Erz\xE4hl mir davon? "
   time: 100
   skippable: 1
 --- !u!114 &59404527592005428
@@ -1420,8 +1117,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "GRAAR! Du verstehst also wie ich mich f\xFChle..."
+  nameToShow: Die Pest
+  textToShow: "Der Drink war zwar f\xFCr die F\xFC\xDFe, aber immerhin bist du einf\xFChlsam.
+    Tja, eigentlich wollte ich mich nur ein bisschen gehen lassen, da meine Freundin
+    Cholera mit mir Schluss gemacht hat."
   time: 100
   skippable: 1
 --- !u!114 &2924224350664207835
@@ -1464,9 +1163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: 'Ich habe noch nie jemanden, wie dich getroffen! UwU Lass uns gemeinsam
-    die Welt verbessern! '
+  nameToShow: Die Pest
+  textToShow: "Da k\xF6nnte mir eine Ablenkung vielleicht ganz guttun. Ich bin dabei!"
   time: 100
   skippable: 1
 --- !u!114 &520176171843411687
@@ -1548,7 +1246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1a93d14115936fa48a1ff9c238e0635b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99eb3d3f0d8c5ed46a964078e29b6fa2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1601,7 +1299,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c2e144396f1260243bf851312fcf8071, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d64791ef0cbeb3740a1bdbbf700c1cc7, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.02
   m_Pitch: 1
@@ -1753,7 +1451,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9789cca6fd1f23b4996c7806dd4e6891, type: 3}
+  m_Sprite: {fileID: 21300000, guid: babb0b53eb7b3344d855f717e4f9413a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1775,10 +1473,11 @@ GameObject:
   - component: {fileID: 4138881541927471751}
   - component: {fileID: 5805449789265915252}
   - component: {fileID: 7615553440314972753}
+  - component: {fileID: 959153730483409536}
   - component: {fileID: 8878698951396746079}
   - component: {fileID: 18204967647966625}
-  - component: {fileID: 959153730483409536}
   - component: {fileID: 4063767951997350763}
+  - component: {fileID: 1496251258026288688}
   - component: {fileID: 4279142703137978439}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_C
@@ -1818,10 +1517,11 @@ MonoBehaviour:
   actions:
   - {fileID: 5805449789265915252}
   - {fileID: 7615553440314972753}
+  - {fileID: 959153730483409536}
   - {fileID: 8878698951396746079}
   - {fileID: 18204967647966625}
-  - {fileID: 959153730483409536}
   - {fileID: 4063767951997350763}
+  - {fileID: 1496251258026288688}
   - {fileID: 4279142703137978439}
 --- !u!114 &5805449789265915252
 MonoBehaviour:
@@ -1836,7 +1536,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: "Meine Beziehungen sind rein gesch\xE4ftlicher Natur."
+  textToShow: "M\xF6glicherweise steckt auch ein wenig B\xF6ses in mir, aber meine
+    Motive sind edler Natur. Ich m\xF6chte die alte Ordnung dieser Welt st\xFCrzen
+    und sie neu auferstehen lassen! "
   time: 100
   skippable: 1
 --- !u!114 &7615553440314972753
@@ -1852,9 +1554,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: "Wenn du interessiert an Zerst\xF6rung bist, h\xE4tte ich aber einen
-    Job f\xFCr dich: Hilf mir dabei, die perverse und korrupte Oberwelt zu zerst\xF6ren
-    und eine neue Ordnung zu schaffen!"
+  textToShow: "Der Diskriminierung der Unterschicht ein Ende setzen und eine freie
+    Welt f\xFCr alle schaffen! "
+  time: 100
+  skippable: 1
+--- !u!114 &959153730483409536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Kommt darauf an, wen du fragst. F\xFCr andere m\xF6gen deine Motive
+    nicht so edel sein, wie du glaubst."
   time: 100
   skippable: 1
 --- !u!114 &8878698951396746079
@@ -1883,25 +1601,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 1312854665098416303}
+  obj: {fileID: 2160497552470237772}
   state: 1
---- !u!114 &959153730483409536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1767117772947844738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "GRAAAAR! Zuerst flirtest du mit mir, um mich danach an der Nase herumzuf\xFChren
-    und mich auszunutzen?"
-  time: 100
-  skippable: 1
 --- !u!114 &4063767951997350763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1914,10 +1615,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: Ich bin fertig mit dir!
+  nameToShow: Die Pest
+  textToShow: "Aber immerhin ist Tod und Vernichtung irgendwie auch mein Job, also
+    bin ich dabei! Etwas Ablenkung k\xF6nnte mir ohnehin guttun! Noch einen Drink
+    bitte."
   time: 100
   skippable: 1
+--- !u!114 &1496251258026288688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
 --- !u!114 &4279142703137978439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2000,8 +1717,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: "Ich mache dir einen anderen Vorschlag: Du hilfst mir dabei, die Oberwelt
-    ins Chaos zu st\xFCrzen und anschlie\xDFend lade ich dich zum Essen ein!"
+  textToShow: "Es gibt eine bestimmte Gruppe von Menschen, die mir ein Dorn im Auge
+    ist. Ich m\xF6chte sie vernichten! Mit deiner Macht w\xE4ren wir zusammen unaufhaltbar!  "
   time: 100
   skippable: 1
 --- !u!114 &7603261242005154146
@@ -2030,7 +1747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
+  obj: {fileID: 1312854665098416303}
   state: 1
 --- !u!114 &44230235371711513
 MonoBehaviour:
@@ -2044,9 +1761,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "GRAAR! Wie romantisch! Zusammen w\xE4ren wir dann wie Bonnie und Clyde!
-    UWU"
+  nameToShow: Die Pest
+  textToShow: 'Du hast recht. Ich habe diese Macht. Doch ich werde sie nicht nutzen,
+    um deinen egoistischen Motiven zu nutzen! '
   time: 100
   skippable: 1
 --- !u!114 &5632649616888453092
@@ -2128,7 +1845,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e83bf584136c7394f81ff464358ea11a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2abdfc059e8c33048b51e39333988e78, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2207,9 +1924,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: " Ich m\xF6chte Chaos und Verw\xFCstung in der Oberwelt anrichten!
-    Schlie\xDFe dich mir an! Zusammen k\xF6nnten wir gro\xDFes erreichen! Und wer
-    wei\xDF... vielleicht auch mehr! ;)"
+  textToShow: "Ich dachte mir, dass du auf Verw\xFCstung stehst. Es w\xE4re eine
+    gute Gelegenheit f\xFCr dich, mal wieder in Action zu sein! Ich w\xFCrde dir
+    sogar gratis Drinks f\xFCr alle Ewigkeit anbieten! "
   time: 100
   skippable: 1
 --- !u!114 &7703310011480381490
@@ -2252,9 +1969,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "GRAAR! So wie ich das sehe versucht du doch nur meine Gef\xFChle auszunutzen,
-    um zu bekommen, was du willst! Nein danke! GRAAR! "
+  nameToShow: Die Pest
+  textToShow: "Zuerst mixt du mir einen ekelhaften Drink und anschlie\xDFend bist
+    du auch noch so dreist, mich nach meiner Hilfe zu bitten, mal kurz die Welt zu
+    zerst\xF6ren?! Du kannst dir deine Drinks f\xFCr alle Ewigkeit sonst wohin schieben!"
   time: 100
   skippable: 1
 --- !u!114 &7029166691302341589
@@ -2290,6 +2008,14 @@ GameObject:
   - component: {fileID: 8811675628019108532}
   - component: {fileID: 4619201525841570037}
   - component: {fileID: 450650040557906795}
+  - component: {fileID: 4621993366160030864}
+  - component: {fileID: 5803416470436297695}
+  - component: {fileID: 4472295597735283326}
+  - component: {fileID: 9054596087249754309}
+  - component: {fileID: 7510978044830153843}
+  - component: {fileID: 4711096413543783052}
+  - component: {fileID: 4212553704996481687}
+  - component: {fileID: 5343044658946667040}
   - component: {fileID: 2977534717753018243}
   m_Layer: 0
   m_Name: Dialogue_Initial
@@ -2338,6 +2064,14 @@ MonoBehaviour:
   - {fileID: 8811675628019108532}
   - {fileID: 4619201525841570037}
   - {fileID: 450650040557906795}
+  - {fileID: 4621993366160030864}
+  - {fileID: 5803416470436297695}
+  - {fileID: 4472295597735283326}
+  - {fileID: 9054596087249754309}
+  - {fileID: 7510978044830153843}
+  - {fileID: 4711096413543783052}
+  - {fileID: 4212553704996481687}
+  - {fileID: 5343044658946667040}
   - {fileID: 2977534717753018243}
 --- !u!114 &6505825318981986738
 MonoBehaviour:
@@ -2365,7 +2099,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: 
-  textToShow: UwU Girl Godzilla betritt die Bar
+  textToShow: "Die Pest, eine kn\xF6cherne Gestalt mit einem schwarzen Umhang, betritt
+    die Bar"
   time: 100
   skippable: 1
 --- !u!114 &5794032807812484113
@@ -2395,7 +2130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: "Willkommen in meinem bescheidenen Lokal!\_"
+  textToShow: 'Guten Abend! Mit wem habe ich es denn heute zu tun? '
   time: 100
   skippable: 1
 --- !u!114 &8948552111962229437
@@ -2438,8 +2173,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "GRAAAAAR! Diese Bar ist ja hinrei\xDFend!"
+  nameToShow: Die Pest
+  textToShow: "Vor dir steht die Pest! Der Schwarze Tod! Und das ist meine treue
+    Gef\xE4hrtin Peanut."
   time: 100
   skippable: 1
 --- !u!114 &8811675628019108532
@@ -2454,9 +2190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "Ich habe geh\xF6rt, dass es hier die besten Cocktails der Unterwelt
-    gibt! UwU "
+  nameToShow: Die Pest
+  textToShow: "Mein Ein und Alles! Sie hilft mir, die schwersten Zeiten zu \xFCberstehen. "
   time: 100
   skippable: 1
 --- !u!114 &4619201525841570037
@@ -2487,6 +2222,124 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 5349953705763796095}
   state: 1
+--- !u!114 &4621993366160030864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Sehr erfreut! Was f\xFChrt dich in meine bescheidene Bar? "
+  time: 100
+  skippable: 1
+--- !u!114 &5803416470436297695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &4472295597735283326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 1
+--- !u!114 &9054596087249754309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: Um ehrlich zu sein, hatte ich einen ziemlich beschissenen Tag
+  time: 100
+  skippable: 1
+--- !u!114 &7510978044830153843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 0
+--- !u!114 &4711096413543783052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &4212553704996481687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: 'und will mich heute mal so richtig gehen lassen! '
+  time: 100
+  skippable: 1
+--- !u!114 &5343044658946667040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
 --- !u!114 &2977534717753018243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2513,7 +2366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3369521145705174839}
   m_Layer: 0
-  m_Name: Godzilla_Dialogue
+  m_Name: Pest_Dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2587,286 +2440,23 @@ MonoBehaviour:
   welcomeSequence: {fileID: 0}
   options:
   - name: A
-    text: A. Klar, aber nur unter einer Bedingung
+    text: A. Erneuerung der alten Welt.
     enabled: 1
     endConversationAfterwards: 1
     sequence: {fileID: 5201586803150775972}
     open: 1
   - name: B
-    text: B. Ich mache dir einen anderen Vorschlag
+    text: B. Es gibt da eine bestimmte Gruppe von Menschen...
     enabled: 1
     endConversationAfterwards: 1
     sequence: {fileID: 9062226892202077236}
     open: 1
   - name: C
-    text: "C. Meine Beziehungen sind rein gesch\xE4ftlicher Natur"
+    text: "C. Freie Welt f\xFCr alle."
     enabled: 1
     endConversationAfterwards: 1
     sequence: {fileID: 4138881541927471751}
     open: 1
---- !u!1 &3949099963406208841
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2836525267394042398}
-  - component: {fileID: 8742082242987604639}
-  - component: {fileID: 4161598022708853273}
-  - component: {fileID: 2944676689874239075}
-  - component: {fileID: 2157040542635103635}
-  - component: {fileID: 9142770565894238035}
-  - component: {fileID: 4548634480769685008}
-  - component: {fileID: 3149163847694956706}
-  - component: {fileID: 6743166461495673754}
-  - component: {fileID: 143673100332170024}
-  - component: {fileID: 5098424492697663788}
-  - component: {fileID: 762820946206961544}
-  - component: {fileID: 4135649711788192936}
-  - component: {fileID: 6018408276449993356}
-  - component: {fileID: 6214156804352852091}
-  m_Layer: 0
-  m_Name: Conv_Propeller_B
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2836525267394042398
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9003406638765188746}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8742082242987604639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  allowedGameState: -1
-  actions:
-  - {fileID: 4161598022708853273}
-  - {fileID: 2944676689874239075}
-  - {fileID: 2157040542635103635}
-  - {fileID: 9142770565894238035}
-  - {fileID: 4548634480769685008}
-  - {fileID: 3149163847694956706}
-  - {fileID: 6743166461495673754}
-  - {fileID: 143673100332170024}
-  - {fileID: 5098424492697663788}
-  - {fileID: 762820946206961544}
-  - {fileID: 4135649711788192936}
-  - {fileID: 6018408276449993356}
-  - {fileID: 6214156804352852091}
---- !u!114 &4161598022708853273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Bob der Bartender
-  textToShow: "Mir gef\xE4llt dein h\xFCbsches Schleifchen! Du siehst so unschuldig
-    aus ;)"
-  time: 100
-  skippable: 1
---- !u!114 &2944676689874239075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 5349953705763796095}
-  state: 0
---- !u!114 &2157040542635103635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 1312854665098416303}
-  state: 1
---- !u!114 &9142770565894238035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: GRAAR! Nicht so unschuldig, wie du denkst!
-  time: 100
-  skippable: 1
---- !u!114 &4548634480769685008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 1312854665098416303}
-  state: 0
---- !u!114 &3149163847694956706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
-  state: 1
---- !u!114 &6743166461495673754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "Ich warte sehns\xFCchtig auf meinen Drink! UWU "
-  time: 100
-  skippable: 1
---- !u!114 &143673100332170024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
-  state: 0
---- !u!114 &5098424492697663788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 5349953705763796095}
-  state: 1
---- !u!114 &762820946206961544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: 
-  textToShow: Bob beginnt einen individuellen Cocktail zu mixen.
-  time: 100
-  skippable: 1
---- !u!114 &4135649711788192936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  state: 1
---- !u!114 &6018408276449993356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  state: 1
---- !u!114 &6214156804352852091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3949099963406208841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 748764807259774061}
-  state: 0
 --- !u!1 &5349953705763796095
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,7 +2523,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6cda93d3d6419914589df2e543c8e731, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b774aea051e5d4c49a779cf7e91f4f32, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2943,237 +2533,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &6055329396207020701
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8629767359083819845}
-  - component: {fileID: 6825671502162199513}
-  - component: {fileID: 3564583363946444127}
-  - component: {fileID: 3562011900143808583}
-  - component: {fileID: 1936977088101607586}
-  - component: {fileID: 5236822273836569790}
-  - component: {fileID: 5795922812416569899}
-  - component: {fileID: 3676463603064373317}
-  - component: {fileID: 1196025921099360414}
-  - component: {fileID: 8427079421033554586}
-  - component: {fileID: 2293441188969061949}
-  - component: {fileID: 6798045340592465976}
-  - component: {fileID: 1598824939059789422}
-  m_Layer: 0
-  m_Name: Conv_Propeller_A
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8629767359083819845
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9003406638765188746}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6825671502162199513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  allowedGameState: -1
-  actions:
-  - {fileID: 3564583363946444127}
-  - {fileID: 3562011900143808583}
-  - {fileID: 1936977088101607586}
-  - {fileID: 5236822273836569790}
-  - {fileID: 5795922812416569899}
-  - {fileID: 3676463603064373317}
-  - {fileID: 1196025921099360414}
-  - {fileID: 8427079421033554586}
-  - {fileID: 2293441188969061949}
-  - {fileID: 6798045340592465976}
-  - {fileID: 1598824939059789422}
---- !u!114 &3564583363946444127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Bob der Bartender
-  textToShow: "\xDCbrigens: Mir gef\xE4llt dein Propellerhut! Sieht echt s\xFC\xDF
-    aus ;)"
-  time: 100
-  skippable: 1
---- !u!114 &3562011900143808583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 5349953705763796095}
-  state: 0
---- !u!114 &1936977088101607586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
-  state: 1
---- !u!114 &5236822273836569790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: GRAAR! Danke! Du bist ja ein richtiger Charmeur!
-  time: 100
-  skippable: 1
---- !u!114 &5795922812416569899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: 'Ich freue mich schon auf den Drink! UWU '
-  time: 100
-  skippable: 1
---- !u!114 &3676463603064373317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
-  state: 0
---- !u!114 &1196025921099360414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 5349953705763796095}
-  state: 1
---- !u!114 &8427079421033554586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: 
-  textToShow: Bob beginnt einen individuellen Cocktail zu mixen.
-  time: 100
-  skippable: 1
---- !u!114 &2293441188969061949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  state: 1
---- !u!114 &6798045340592465976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 0}
-  state: 1
---- !u!114 &1598824939059789422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6055329396207020701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 748764807259774061}
-  state: 0
 --- !u!1 &6199629676552861549
 GameObject:
   m_ObjectHideFlags: 0
@@ -3282,11 +2641,7 @@ GameObject:
   - component: {fileID: 6908328155319681292}
   - component: {fileID: 6332885442349811177}
   - component: {fileID: 1570585314374621189}
-  - component: {fileID: 5685928530482314895}
-  - component: {fileID: 5277974220322808902}
   - component: {fileID: 6987038000476227648}
-  - component: {fileID: 3359218285749941635}
-  - component: {fileID: 2864726900420855886}
   - component: {fileID: 3653476998493098977}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste
@@ -3333,11 +2688,7 @@ MonoBehaviour:
   - {fileID: 6908328155319681292}
   - {fileID: 6332885442349811177}
   - {fileID: 1570585314374621189}
-  - {fileID: 5685928530482314895}
-  - {fileID: 5277974220322808902}
   - {fileID: 6987038000476227648}
-  - {fileID: 3359218285749941635}
-  - {fileID: 2864726900420855886}
   - {fileID: 3653476998493098977}
 --- !u!114 &5331937996549001722
 MonoBehaviour:
@@ -3366,7 +2717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: Hier, dein Cocktail. Eine Moonlight Margarita!
+  textToShow: 'Darf ich vorstellen: Der Eternal Hellfire! '
   time: 100
   skippable: 1
 --- !u!114 &7141546995858566733
@@ -3410,7 +2761,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Godzilla
-  textToShow: 'GRAAAAR! Wow! Das ist das Leckerste, was ich je getrunken habe! '
+  textToShow: "Hervorragend! Ich habe noch nie so etwas K\xF6stliches getrunken!
+    Ich habe mich schon lange nicht mehr so lebendig gef\xFChlt!"
   time: 100
   skippable: 1
 --- !u!114 &6908328155319681292
@@ -3454,38 +2806,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: "Freut mich, dass er dir schmeckt! Kann ich sonst noch etwas f\xFCr
-    dich tun? "
+  textToShow: "Das freut mich! Falls du dich noch lebendiger f\xFChlen m\xF6chtest,
+    h\xE4tte ich ein Angebot f\xFCr dich. Hilf mir, Chaos zu verursachen und die
+    Oberwelt zu zerst\xF6ren!  "
   time: 100
   skippable: 1
---- !u!114 &5685928530482314895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7183682189823395625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 5349953705763796095}
-  state: 0
---- !u!114 &5277974220322808902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7183682189823395625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
-  state: 1
 --- !u!114 &6987038000476227648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3498,39 +2823,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "GRAAR! Wie w\xE4re es mit deiner HOLO-ID? Dann k\xF6nnte ich dich
-    mal anrufen...UwU "
+  nameToShow: Die Pest
+  textToShow: "Interessant.  Hast du bestimmte Motive oder bist du einfach nur b\xF6se? "
   time: 100
   skippable: 1
---- !u!114 &3359218285749941635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7183682189823395625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
-  state: 0
---- !u!114 &2864726900420855886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7183682189823395625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 5349953705763796095}
-  state: 1
 --- !u!114 &3653476998493098977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3558,11 +2854,12 @@ GameObject:
   - component: {fileID: 4739452420348106095}
   - component: {fileID: 6015404932010119060}
   - component: {fileID: 5031454396417339357}
-  - component: {fileID: 4458182285518376832}
-  - component: {fileID: 6257868147084941135}
   - component: {fileID: 5597734926425856276}
   - component: {fileID: 4588057697124675607}
   - component: {fileID: 5072490621824312150}
+  - component: {fileID: 3369148047877218433}
+  - component: {fileID: 2179617804875814131}
+  - component: {fileID: 2399075898936739680}
   - component: {fileID: 4897684572710724200}
   m_Layer: 0
   m_Name: Dialogue_C
@@ -3601,11 +2898,12 @@ MonoBehaviour:
   allowedGameState: -1
   actions:
   - {fileID: 5031454396417339357}
-  - {fileID: 4458182285518376832}
-  - {fileID: 6257868147084941135}
   - {fileID: 5597734926425856276}
   - {fileID: 4588057697124675607}
   - {fileID: 5072490621824312150}
+  - {fileID: 3369148047877218433}
+  - {fileID: 2179617804875814131}
+  - {fileID: 2399075898936739680}
   - {fileID: 4897684572710724200}
 --- !u!114 &5031454396417339357
 MonoBehaviour:
@@ -3620,42 +2918,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: "Auch ich sp\xFCre eine Verbundenheit zu dir. Ich glaube, dass wir
-    zusammen viel erreichen k\xF6nnten! "
-  time: 100
-  skippable: 1
---- !u!114 &4458182285518376832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7589772985806909198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Bob der Bartender
-  textToShow: "Schon seit Jahren plane ich, die Welt ins Chaos zu st\xFCrzen und
-    eine neue Ordnung zu erschaffen."
-  time: 100
-  skippable: 1
---- !u!114 &6257868147084941135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7589772985806909198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Bob der Bartender
-  textToShow: "Ich m\xF6chte den Planeten vom Joch der Oberschicht befreien! Hilf
-    mir dabei, und wir sind unaufhaltsam! "
+  textToShow: "So wie ich das sehe, hast du seit deinem letzten gro\xDFen Ding ganz
+    sch\xF6n abgebaut. Ich biete dir die einmalige Chance, auf deine alten Tage nochmal
+    so richtig auf die Kacke zu hauen! "
   time: 100
   skippable: 1
 --- !u!114 &5597734926425856276
@@ -3684,7 +2949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
+  obj: {fileID: 1312854665098416303}
   state: 1
 --- !u!114 &5072490621824312150
 MonoBehaviour:
@@ -3698,9 +2963,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "GRAAR! So etwas Romantisches habe ich noch nie geh\xF6rt! Ab dem ersten
-    Moment in dieser Bar wusste ich, dass wir f\xFCreinander bestimmt sind! UwU "
+  nameToShow: Die Pest
+  textToShow: 'So alt bin ich noch gar nicht! Na warte, ich werde dir zeigen, wozu
+    ich noch imstande bin! '
+  time: 100
+  skippable: 1
+--- !u!114 &3369148047877218433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 0
+--- !u!114 &2179617804875814131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &2399075898936739680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: Aber zuerst mixt du mir einen Drink, der hoffentlich etwas besser schmeckt!
   time: 100
   skippable: 1
 --- !u!114 &4897684572710724200
@@ -3727,20 +3036,25 @@ GameObject:
   - component: {fileID: 3405549456015931799}
   - component: {fileID: 3800937440737900414}
   - component: {fileID: 726555350395633125}
-  - component: {fileID: 3827569765068587520}
   - component: {fileID: 3286630938023650580}
-  - component: {fileID: 452914147522423591}
+  - component: {fileID: 636528187076109195}
   - component: {fileID: 4064672090400531652}
+  - component: {fileID: 452914147522423591}
+  - component: {fileID: 2622235026125644842}
   - component: {fileID: 4497322803366119254}
   - component: {fileID: 4272427384469398088}
-  - component: {fileID: 7600745460259320922}
-  - component: {fileID: 7208809367564383191}
+  - component: {fileID: 129007598093106228}
   - component: {fileID: 4483147030129980122}
+  - component: {fileID: 7600745460259320922}
+  - component: {fileID: 3010651648524251870}
   - component: {fileID: 7014697618176485455}
-  - component: {fileID: 1068170904426134198}
+  - component: {fileID: 7208809367564383191}
+  - component: {fileID: 3519473405786505400}
   - component: {fileID: 7137611531689938857}
+  - component: {fileID: 1068170904426134198}
+  - component: {fileID: 2168477808162572448}
+  - component: {fileID: 1570650205797487083}
   - component: {fileID: 851539783390351438}
-  - component: {fileID: 2243061703167521584}
   m_Layer: 0
   m_Name: Smalltalk_B
   m_TagString: Untagged
@@ -3778,20 +3092,25 @@ MonoBehaviour:
   allowedGameState: -1
   actions:
   - {fileID: 726555350395633125}
-  - {fileID: 3827569765068587520}
   - {fileID: 3286630938023650580}
-  - {fileID: 452914147522423591}
+  - {fileID: 636528187076109195}
   - {fileID: 4064672090400531652}
+  - {fileID: 452914147522423591}
+  - {fileID: 2622235026125644842}
   - {fileID: 4497322803366119254}
   - {fileID: 4272427384469398088}
-  - {fileID: 7600745460259320922}
-  - {fileID: 7208809367564383191}
+  - {fileID: 129007598093106228}
   - {fileID: 4483147030129980122}
+  - {fileID: 7600745460259320922}
+  - {fileID: 3010651648524251870}
   - {fileID: 7014697618176485455}
-  - {fileID: 1068170904426134198}
+  - {fileID: 7208809367564383191}
+  - {fileID: 3519473405786505400}
   - {fileID: 7137611531689938857}
+  - {fileID: 1068170904426134198}
+  - {fileID: 2168477808162572448}
+  - {fileID: 1570650205797487083}
   - {fileID: 851539783390351438}
-  - {fileID: 2243061703167521584}
 --- !u!114 &726555350395633125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3805,20 +3124,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 5349953705763796095}
-  state: 0
---- !u!114 &3827569765068587520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9159280608249462914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
   state: 1
 --- !u!114 &3286630938023650580
 MonoBehaviour:
@@ -3832,12 +3137,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: GRAAR! Ich habe gerade erst einen Planeten so richtig aufgemischt!
-    Jetzt suche ich nach ein wenig Erholung!
+  nameToShow: Bob der Bartender
+  textToShow: "M\xF6chtest du mir mehr davon erz\xE4hlen? Wie du sicher wei\xDFt,
+    k\xF6nnen wir Barkeeper ziemlich gut zuh\xF6ren! "
   time: 100
   skippable: 1
---- !u!114 &452914147522423591
+--- !u!114 &636528187076109195
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3846,13 +3151,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 9159280608249462914}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "Jetzt musst du mir von dir erz\xE4hlen! UwU"
-  time: 100
-  skippable: 1
+  obj: {fileID: 5349953705763796095}
+  state: 0
 --- !u!114 &4064672090400531652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3865,7 +3168,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
+  obj: {fileID: 1312854665098416303}
+  state: 1
+--- !u!114 &452914147522423591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Wir kennen uns nicht mal 2 Minuten und ich soll dir von meinen Gef\xFChlen
+    erz\xE4hlen? Wie w\xE4re es, wenn du mir erstmal einen Drink mixen w\xFCrdest? "
+  time: 100
+  skippable: 1
+--- !u!114 &2622235026125644842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
   state: 0
 --- !u!114 &4497322803366119254
 MonoBehaviour:
@@ -3894,45 +3228,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: "Ich bin Barkeeper aus Leidenschaft. Ich experimentiere mit verschiedenen
-    Drinks und anderen Mixturen. Manche Getr\xE4nke haben wahrlich atemberaubende
-    Effekte ;)"
+  textToShow: "Kein Grund, passiv-aggressiv zu werden. Was m\xF6chtest du trinken? "
   time: 100
   skippable: 1
---- !u!114 &7600745460259320922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9159280608249462914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Bob der Bartender
-  textToShow: Wenn du nach einem guten Cocktail suchst... dann bist du hier auf jeden
-    Fall richtig ;)
-  time: 100
-  skippable: 1
---- !u!114 &7208809367564383191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9159280608249462914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Bob der Bartender
-  textToShow: "Ich habe eine besondere Empfehlung f\xFCr dich! "
-  time: 100
-  skippable: 1
---- !u!114 &4483147030129980122
+--- !u!114 &129007598093106228
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3946,7 +3245,96 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 5349953705763796095}
   state: 0
+--- !u!114 &4483147030129980122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &7600745460259320922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Heute gel\xFCstet es mir nach einem Drink mit ordentlich Feuer!"
+  time: 100
+  skippable: 1
+--- !u!114 &3010651648524251870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
 --- !u!114 &7014697618176485455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 1
+--- !u!114 &7208809367564383191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "In letzter Zeit hatte ich nicht viel, wor\xFCber ich mich freuen konnte.
+    Ich muss die Leere in mir f\xFCllen."
+  time: 100
+  skippable: 1
+--- !u!114 &3519473405786505400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 0
+--- !u!114 &7137611531689938857
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3972,12 +3360,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: GRAAAR! Da bin ich jetzt aber gespannt . ;)  Vielleicht bin ich auch
-    auf der Suche nach einem knackigen Barkeeper.... GRAAAR! UwU
+  nameToShow: Die Pest
+  textToShow: "\xDCberrasche mich! "
   time: 100
   skippable: 1
---- !u!114 &7137611531689938857
+--- !u!114 &2168477808162572448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Ich glaube, ich habe genau das Richtige f\xFCr dich!  "
+  time: 100
+  skippable: 1
+--- !u!114 &1570650205797487083
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4005,22 +3408,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 5349953705763796095}
   state: 1
---- !u!114 &2243061703167521584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9159280608249462914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b00d3522e9b7d7943b2200487478556b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  conversation: {fileID: 6437235029475266884}
-  type: 0
-  index: 0
-  enableValue: 0
 --- !u!1 &9209628641190684922
 GameObject:
   m_ObjectHideFlags: 0
@@ -4032,13 +3419,11 @@ GameObject:
   - component: {fileID: 4963067947888510619}
   - component: {fileID: 5201586803150775972}
   - component: {fileID: 1386548803371130094}
-  - component: {fileID: 177009639534803788}
   - component: {fileID: 5249818537819819914}
   - component: {fileID: 3609582598728642887}
   - component: {fileID: 4817065801838782031}
   - component: {fileID: 3118448406562695395}
   - component: {fileID: 3188405033856623365}
-  - component: {fileID: 2407825290799364778}
   - component: {fileID: 531711894939046852}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_A
@@ -4077,13 +3462,11 @@ MonoBehaviour:
   allowedGameState: -1
   actions:
   - {fileID: 1386548803371130094}
-  - {fileID: 177009639534803788}
   - {fileID: 5249818537819819914}
   - {fileID: 3609582598728642887}
   - {fileID: 4817065801838782031}
   - {fileID: 3118448406562695395}
   - {fileID: 3188405033856623365}
-  - {fileID: 2407825290799364778}
   - {fileID: 531711894939046852}
 --- !u!114 &1386548803371130094
 MonoBehaviour:
@@ -4098,24 +3481,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: "Meine HOLO-ID? Klar, aber nur unter einer Bedingung: Du musst mir
-    dabei helfen, die Oberwelt zu zerst\xF6ren!"
+  textToShow: "Die verdorbene Welt des Reichtums und der Macht, die sich die Oberwelt
+    nennt, hat uns Unterweltler abgewiesen. Zu ge\xE4chteten gemacht. Nun haben wir
+    gemeinsam die Chance, die Welt in den Untergang zu st\xFCrzen und nach unseren
+    Vorstellungen neu zu formen! "
   time: 100
   skippable: 1
---- !u!114 &177009639534803788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9209628641190684922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 5349953705763796095}
-  state: 0
 --- !u!114 &5249818537819819914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4128,7 +3499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 1312854665098416303}
+  obj: {fileID: 5349953705763796095}
   state: 1
 --- !u!114 &3609582598728642887
 MonoBehaviour:
@@ -4142,8 +3513,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "Die Oberwelt zerst\xF6ren? GRAAAR! Ich stehe auf Zerst\xF6rung!"
+  nameToShow: Die Pest
+  textToShow: "Dein Angebot klingt verlockend, Mensch. Ich hatte schon l\xE4nger
+    \xFCber ein Comeback nachgedacht!"
   time: 100
   skippable: 1
 --- !u!114 &4817065801838782031
@@ -4158,7 +3530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 1312854665098416303}
+  obj: {fileID: 5349953705763796095}
   state: 0
 --- !u!114 &3118448406562695395
 MonoBehaviour:
@@ -4172,7 +3544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 2160497552470237772}
+  obj: {fileID: 1312854665098416303}
   state: 1
 --- !u!114 &3188405033856623365
 MonoBehaviour:
@@ -4186,25 +3558,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "Das h\xE4tte ich gar nicht von dir erwartet! DU bist ja noch sch\xE4rfer
-    als gedacht!"
-  time: 100
-  skippable: 1
---- !u!114 &2407825290799364778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9209628641190684922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameToShow: Godzilla
-  textToShow: "Zusammen k\xF6nnen wir alles plattmachen! Wie romantisch! UWU"
+  nameToShow: Die Pest
+  textToShow: "Doch sei gewarnt, wenn du mich t\xE4uschen solltest, wird deine Strafe
+    schlimmer sein als alles, was du dir vorstellen kannst."
   time: 100
   skippable: 1
 --- !u!114 &531711894939046852
