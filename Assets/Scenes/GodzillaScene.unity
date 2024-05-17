@@ -2705,7 +2705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1589865440632776519, guid: 27d7597f904689240b3dbd86cf80f459, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2293441188969061949, guid: 27d7597f904689240b3dbd86cf80f459, type: 3}
       propertyPath: obj
@@ -5761,7 +5761,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 100
   m_Sprite: {fileID: 21300000, guid: b1b406d164661aa449277998337e6793, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
