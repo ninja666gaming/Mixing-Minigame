@@ -1334,6 +1334,7 @@ GameObject:
   - component: {fileID: 2924224350664207835}
   - component: {fileID: 1422977889096475624}
   - component: {fileID: 5471414337010803991}
+  - component: {fileID: 1499880018798392309}
   - component: {fileID: 2713059680351058423}
   m_Layer: 0
   m_Name: Dialogue_B
@@ -1378,6 +1379,7 @@ MonoBehaviour:
   - {fileID: 2924224350664207835}
   - {fileID: 1422977889096475624}
   - {fileID: 5471414337010803991}
+  - {fileID: 1499880018798392309}
   - {fileID: 2713059680351058423}
 --- !u!114 &454777350065734475
 MonoBehaviour:
@@ -1486,6 +1488,20 @@ MonoBehaviour:
     die Welt verbessern! '
   time: 100
   skippable: 1
+--- !u!114 &1499880018798392309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
 --- !u!114 &2713059680351058423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1716,7 +1732,7 @@ GameObject:
   - component: {fileID: 3004272159233221672}
   - component: {fileID: 6017314157436305815}
   - component: {fileID: 8683208152268980809}
-  - component: {fileID: 9201204775748644692}
+  - component: {fileID: 1281808351077902928}
   m_Layer: 0
   m_Name: SceneTransition
   m_TagString: Untagged
@@ -1735,7 +1751,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1484744323210275760}
   m_Father: {fileID: 8955404393611817877}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1755,6 +1772,7 @@ MonoBehaviour:
   actions:
   - {fileID: 6017314157436305815}
   - {fileID: 8683208152268980809}
+  - {fileID: 1281808351077902928}
 --- !u!114 &6017314157436305815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1782,7 +1800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waitTimeInSeconds: 1
---- !u!114 &9201204775748644692
+--- !u!114 &1281808351077902928
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1791,10 +1809,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1589865440632776519}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ab89aae59afed94a8fa16a3a5f7973a, type: 3}
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: 
+  obj: {fileID: 4008568276472018292}
+  state: 1
 --- !u!1 &1603828527313367497
 GameObject:
   m_ObjectHideFlags: 0
@@ -1887,6 +1906,7 @@ GameObject:
   - component: {fileID: 18204967647966625}
   - component: {fileID: 959153730483409536}
   - component: {fileID: 4063767951997350763}
+  - component: {fileID: 4811346107617175696}
   - component: {fileID: 2625871845050967977}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_C
@@ -1930,6 +1950,7 @@ MonoBehaviour:
   - {fileID: 18204967647966625}
   - {fileID: 959153730483409536}
   - {fileID: 4063767951997350763}
+  - {fileID: 4811346107617175696}
   - {fileID: 2625871845050967977}
 --- !u!114 &5805449789265915252
 MonoBehaviour:
@@ -2026,6 +2047,20 @@ MonoBehaviour:
   textToShow: Ich bin fertig mit dir!
   time: 100
   skippable: 1
+--- !u!114 &4811346107617175696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 0
 --- !u!114 &2625871845050967977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2053,6 +2088,7 @@ GameObject:
   - component: {fileID: 7603261242005154146}
   - component: {fileID: 7059282388837992857}
   - component: {fileID: 44230235371711513}
+  - component: {fileID: 4765244337415915043}
   - component: {fileID: 3384930714114777600}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_B
@@ -2094,6 +2130,7 @@ MonoBehaviour:
   - {fileID: 7603261242005154146}
   - {fileID: 7059282388837992857}
   - {fileID: 44230235371711513}
+  - {fileID: 4765244337415915043}
   - {fileID: 3384930714114777600}
 --- !u!114 &4306218525725660762
 MonoBehaviour:
@@ -2157,6 +2194,20 @@ MonoBehaviour:
     UWU"
   time: 100
   skippable: 1
+--- !u!114 &4765244337415915043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968099827112273771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
 --- !u!114 &3384930714114777600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2260,6 +2311,7 @@ GameObject:
   - component: {fileID: 7703310011480381490}
   - component: {fileID: 8890385317142224453}
   - component: {fileID: 5244202515976788441}
+  - component: {fileID: 3830801290736159732}
   - component: {fileID: 1647623857098168099}
   m_Layer: 0
   m_Name: Dialogue_A
@@ -2301,6 +2353,7 @@ MonoBehaviour:
   - {fileID: 7703310011480381490}
   - {fileID: 8890385317142224453}
   - {fileID: 5244202515976788441}
+  - {fileID: 3830801290736159732}
   - {fileID: 1647623857098168099}
 --- !u!114 &6066879170744676427
 MonoBehaviour:
@@ -2365,6 +2418,20 @@ MonoBehaviour:
     um zu bekommen, was du willst! Nein danke! GRAAR! "
   time: 100
   skippable: 1
+--- !u!114 &3830801290736159732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757625991631724082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 0
 --- !u!114 &1647623857098168099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2991,6 +3058,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 748764807259774061}
   state: 0
+--- !u!1 &4008568276472018292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1484744323210275760}
+  - component: {fileID: 4627579518309225157}
+  m_Layer: 0
+  m_Name: SceneChanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1484744323210275760
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008568276472018292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9084032476690344076}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4627579518309225157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4008568276472018292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: EndingScreen
 --- !u!1 &5349953705763796095
 GameObject:
   m_ObjectHideFlags: 0
@@ -3719,6 +3831,7 @@ GameObject:
   - component: {fileID: 5597734926425856276}
   - component: {fileID: 4588057697124675607}
   - component: {fileID: 5072490621824312150}
+  - component: {fileID: 5149229357573852518}
   - component: {fileID: 758314673318666175}
   m_Layer: 0
   m_Name: Dialogue_C
@@ -3762,6 +3875,7 @@ MonoBehaviour:
   - {fileID: 5597734926425856276}
   - {fileID: 4588057697124675607}
   - {fileID: 5072490621824312150}
+  - {fileID: 5149229357573852518}
   - {fileID: 758314673318666175}
 --- !u!114 &5031454396417339357
 MonoBehaviour:
@@ -3859,6 +3973,20 @@ MonoBehaviour:
     Moment in dieser Bar wusste ich, dass wir f\xFCreinander bestimmt sind! UwU "
   time: 100
   skippable: 1
+--- !u!114 &5149229357573852518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
 --- !u!114 &758314673318666175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4195,6 +4323,7 @@ GameObject:
   - component: {fileID: 3118448406562695395}
   - component: {fileID: 3188405033856623365}
   - component: {fileID: 2407825290799364778}
+  - component: {fileID: 4924306837715775739}
   - component: {fileID: 4649408931415154698}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_A
@@ -4240,6 +4369,7 @@ MonoBehaviour:
   - {fileID: 3118448406562695395}
   - {fileID: 3188405033856623365}
   - {fileID: 2407825290799364778}
+  - {fileID: 4924306837715775739}
   - {fileID: 4649408931415154698}
 --- !u!114 &1386548803371130094
 MonoBehaviour:
@@ -4363,6 +4493,20 @@ MonoBehaviour:
   textToShow: "Zusammen k\xF6nnen wir alles plattmachen! Wie romantisch! UWU"
   time: 100
   skippable: 1
+--- !u!114 &4924306837715775739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209628641190684922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
 --- !u!114 &4649408931415154698
 MonoBehaviour:
   m_ObjectHideFlags: 0
