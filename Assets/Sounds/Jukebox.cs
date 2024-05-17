@@ -9,7 +9,7 @@ public class Jukebox : MonoBehaviour
     [SerializeField] AudioClip mixingSong;
     private AudioClip playing;
     public float FadeTime = 0.5f;
-    private float mixingVolume = 0.09f;
+    private float mixingVolume = 0.13f;
     private float sceneVolume = 0.04f;
     private bool isInitialEnable = true;
 

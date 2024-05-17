@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GodzillaScene.unity
     guid: 4e7342f379c772544a2814d5c3f258ef
+  - enabled: 1
+    path: Assets/Scenes/EndingScreen.unity
+    guid: b6c7fe5552fd72644a5fb3c43b0b7e47
   m_configObjects: {}
