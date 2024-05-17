@@ -1,0 +1,3578 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &99645269212036073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1533513064119016214}
+  - component: {fileID: 6078088920526073338}
+  m_Layer: 0
+  m_Name: BadEndingStarter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1533513064119016214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99645269212036073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8955404393611817877}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6078088920526073338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99645269212036073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45bb1078a2fe85146a7e075513dc03cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seq: {fileID: 385253769515232514}
+--- !u!1 &246541292146880250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5247422602530911333}
+  - component: {fileID: 931855706054455151}
+  m_Layer: 0
+  m_Name: Conv_Smalltalk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5247422602530911333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246541292146880250}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1632673652305868224}
+  - {fileID: 3405549456015931799}
+  m_Father: {fileID: 8675883517755755267}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &931855706054455151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246541292146880250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7f41d0218fcd441a24e0228efaa46e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  welcomeSequence: {fileID: 0}
+  options:
+  - name: "A. Erz\xE4hl mir von dir."
+    text: A. Du bist hier richtig!
+    enabled: 1
+    endConversationAfterwards: 1
+    sequence: {fileID: 4798763739161447903}
+    open: 1
+  - name: "B. Was treibt eine Sch\xF6nheit hierher?"
+    text: "B. Erz\xE4hl mir von dir."
+    enabled: 1
+    endConversationAfterwards: 1
+    sequence: {fileID: 3800937440737900414}
+    open: 1
+--- !u!1 &373264102409808863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 987837442275109257}
+  - component: {fileID: 8625883902411784911}
+  - component: {fileID: 3751685802475025014}
+  - component: {fileID: 8093949900268359155}
+  m_Layer: 5
+  m_Name: Emotions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &987837442275109257
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373264102409808863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4542238068710450482}
+  - {fileID: 6758879906078968124}
+  - {fileID: 7717969457211658615}
+  - {fileID: 6081046840781743634}
+  m_Father: {fileID: 8955404393611817877}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &8625883902411784911
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373264102409808863}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 1
+  m_TargetDisplay: 0
+--- !u!114 &3751685802475025014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373264102409808863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &8093949900268359155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373264102409808863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!1 &748764807259774061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1270081493295339529}
+  - component: {fileID: 7645559156044275884}
+  m_Layer: 0
+  m_Name: JukeboxController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1270081493295339529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748764807259774061}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6085890411614329382}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7645559156044275884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748764807259774061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2479cdb973fae1a4ebf29ee2445d2b8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audiosource: {fileID: 3391856013881711407}
+  sceneSong: {fileID: 8300000, guid: c2e144396f1260243bf851312fcf8071, type: 3}
+  mixingSong: {fileID: 8300000, guid: b3ef76885865a0944a5bb931243c203d, type: 3}
+  FadeTime: 0.05
+--- !u!1 &824424334764580765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7562278591881821847}
+  - component: {fileID: 385253769515232514}
+  - component: {fileID: 1014392551188714954}
+  - component: {fileID: 1505476507855665589}
+  - component: {fileID: 5954396122454794092}
+  - component: {fileID: 3804925368921586159}
+  - component: {fileID: 6645594805720921298}
+  - component: {fileID: 6063910798857964741}
+  - component: {fileID: 1183826272596065862}
+  - component: {fileID: 7803493645396591325}
+  - component: {fileID: 5194147040663398210}
+  - component: {fileID: 2370662498669842182}
+  - component: {fileID: 1404016128056676190}
+  - component: {fileID: 6602072435789076980}
+  - component: {fileID: 7955870193127866339}
+  - component: {fileID: 8260648260921924820}
+  m_Layer: 0
+  m_Name: Dialogue_BadTaste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7562278591881821847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.62677, y: -267.67044, z: 380.19333}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3894181972747028086}
+  m_Father: {fileID: 3369521145705174839}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &385253769515232514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 1014392551188714954}
+  - {fileID: 1505476507855665589}
+  - {fileID: 5954396122454794092}
+  - {fileID: 3804925368921586159}
+  - {fileID: 6645594805720921298}
+  - {fileID: 6063910798857964741}
+  - {fileID: 1183826272596065862}
+  - {fileID: 7803493645396591325}
+  - {fileID: 5194147040663398210}
+  - {fileID: 2370662498669842182}
+  - {fileID: 1404016128056676190}
+  - {fileID: 6602072435789076980}
+  - {fileID: 7955870193127866339}
+  - {fileID: 8260648260921924820}
+--- !u!114 &1014392551188714954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 748764807259774061}
+  state: 1
+--- !u!114 &1505476507855665589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: 'Darf ich vorstellen: Der Eternal Hellfire!'
+  time: 100
+  skippable: 1
+--- !u!114 &5954396122454794092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &3804925368921586159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 1
+--- !u!114 &6645594805720921298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: 'Hilfe! Das ist ja widerlich! Wie kannst du mir so einen Schrott andrehen??! '
+  time: 100
+  skippable: 1
+--- !u!114 &6063910798857964741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Du wolltest doch etwas Feuriges! Da dir der Drink nicht schmeckt,
+    h\xE4tte ich ein anderes Angebot f\xFCr dich, das dir besser gefallen d\xFCrfte.
+    Wie w\xE4re es, wenn du mir dabei hilfst, die Oberwelt zu zerst\xF6ren? Mit deiner
+    Macht w\xE4ren wir unaufhaltsam! Au\xDFerdem geht der n\xE4chste Drink aufs Haus!  "
+  time: 100
+  skippable: 1
+--- !u!114 &1183826272596065862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 0
+--- !u!114 &7803493645396591325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 1
+--- !u!114 &5194147040663398210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: Du hast recht. Ich besitze diese Macht!
+  time: 100
+  skippable: 1
+--- !u!114 &2370662498669842182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 0
+--- !u!114 &1404016128056676190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 1
+--- !u!114 &6602072435789076980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: 'Aber wieso sollte ich dir helfen? '
+  time: 100
+  skippable: 1
+--- !u!114 &7955870193127866339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &8260648260921924820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00d3522e9b7d7943b2200487478556b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conversation: {fileID: 6379208359217746712}
+  type: 0
+  index: 0
+  enableValue: 0
+--- !u!1 &862584487452093607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1632673652305868224}
+  - component: {fileID: 4798763739161447903}
+  - component: {fileID: 7273763831328161497}
+  - component: {fileID: 5998216871627579415}
+  - component: {fileID: 1965146550944577817}
+  - component: {fileID: 5358666360782180734}
+  - component: {fileID: 365983076909508534}
+  - component: {fileID: 4765128462300234686}
+  - component: {fileID: 827619662622331730}
+  - component: {fileID: 677076511381740276}
+  - component: {fileID: 2754311130192262897}
+  - component: {fileID: 9154403836688621724}
+  - component: {fileID: 7104863840761751169}
+  - component: {fileID: 4312591197358827062}
+  - component: {fileID: 4044084569719266706}
+  - component: {fileID: 2584498471841000385}
+  - component: {fileID: 6496183980982503395}
+  - component: {fileID: 3735440717682562311}
+  - component: {fileID: 3551680002465177445}
+  - component: {fileID: 920823978675958033}
+  m_Layer: 0
+  m_Name: Smalltalk_A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1632673652305868224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5247422602530911333}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4798763739161447903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 7273763831328161497}
+  - {fileID: 5998216871627579415}
+  - {fileID: 1965146550944577817}
+  - {fileID: 5358666360782180734}
+  - {fileID: 365983076909508534}
+  - {fileID: 4765128462300234686}
+  - {fileID: 827619662622331730}
+  - {fileID: 677076511381740276}
+  - {fileID: 2754311130192262897}
+  - {fileID: 9154403836688621724}
+  - {fileID: 7104863840761751169}
+  - {fileID: 4312591197358827062}
+  - {fileID: 4044084569719266706}
+  - {fileID: 2584498471841000385}
+  - {fileID: 6496183980982503395}
+  - {fileID: 3735440717682562311}
+  - {fileID: 3551680002465177445}
+  - {fileID: 920823978675958033}
+--- !u!114 &7273763831328161497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: 'Wenn das so ist, dann bist du hier an der richtigen Adresse. Ich mache
+    die besten Drinks der Unterwelt! '
+  time: 100
+  skippable: 1
+--- !u!114 &5998216871627579415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 1
+--- !u!114 &1965146550944577817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Die besten Drinks der Unterwelt, sagst du? Ich will f\xFCr dich hoffen,
+    dass du recht hast.  "
+  time: 100
+  skippable: 1
+--- !u!114 &5358666360782180734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &365983076909508534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &4765128462300234686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Kein Grund, passiv-aggressiv zu werden. Was m\xF6chtest du trinken? "
+  time: 100
+  skippable: 1
+--- !u!114 &827619662622331730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
+--- !u!114 &677076511381740276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 1
+--- !u!114 &2754311130192262897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Heute gel\xFCstet es mir nach einem Drink mit ordentlich Feuer!"
+  time: 100
+  skippable: 1
+--- !u!114 &9154403836688621724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &7104863840761751169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 1
+--- !u!114 &4312591197358827062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "n letzter Zeit hatte ich nicht viel, wor\xFCber ich mich freuen konnte. 
+    Ich muss die Leere in mir f\xFCllen."
+  time: 100
+  skippable: 1
+--- !u!114 &4044084569719266706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 0
+--- !u!114 &2584498471841000385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &6496183980982503395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "\xDCberrasche mich! "
+  time: 100
+  skippable: 1
+--- !u!114 &3735440717682562311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Ich glaube, ich habe genau das Richtige f\xFCr dich!  "
+  time: 100
+  skippable: 1
+--- !u!114 &3551680002465177445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
+--- !u!114 &920823978675958033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 1
+--- !u!1 &1066736834781429788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3894181972747028086}
+  - component: {fileID: 6379208359217746712}
+  m_Layer: 0
+  m_Name: Conv_Persuasion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3894181972747028086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066736834781429788}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8247615891886841649}
+  - {fileID: 1723156584308501949}
+  - {fileID: 4739452420348106095}
+  m_Father: {fileID: 7562278591881821847}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6379208359217746712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066736834781429788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7f41d0218fcd441a24e0228efaa46e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  welcomeSequence: {fileID: 0}
+  options:
+  - name: A. Lust auf Chaos?
+    text: "A. Lust auf Verw\xFCstung und gratis Drinks?"
+    enabled: 1
+    endConversationAfterwards: 1
+    sequence: {fileID: 4175649585089010798}
+    open: 1
+  - name: B. Auch ich bin Einsam
+    text: B. Du bist sicher nicht ohne Grund hier, oder?
+    enabled: 1
+    endConversationAfterwards: 1
+    sequence: {fileID: 1320487006157073838}
+    open: 1
+  - name: C. Neuer Drink
+    text: C. Auf die alten Tage nochmal?
+    enabled: 1
+    endConversationAfterwards: 1
+    sequence: {fileID: 6015404932010119060}
+    open: 1
+--- !u!1 &1171165274276072687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8955404393611817877}
+  m_Layer: 0
+  m_Name: Pest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8955404393611817877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171165274276072687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 954.3732, y: 272.32956, z: 380.19333}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6085890411614329382}
+  - {fileID: 2265696707418095756}
+  - {fileID: 1533513064119016214}
+  - {fileID: 7304764917599532144}
+  - {fileID: 3369521145705174839}
+  - {fileID: 987837442275109257}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1280419319912335212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1723156584308501949}
+  - component: {fileID: 1320487006157073838}
+  - component: {fileID: 454777350065734475}
+  - component: {fileID: 59404527592005428}
+  - component: {fileID: 543438543207767355}
+  - component: {fileID: 5529779701931462136}
+  - component: {fileID: 2924224350664207835}
+  - component: {fileID: 1422977889096475624}
+  - component: {fileID: 5471414337010803991}
+  - component: {fileID: 520176171843411687}
+  m_Layer: 0
+  m_Name: Dialogue_B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1723156584308501949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3894181972747028086}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1320487006157073838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 454777350065734475}
+  - {fileID: 59404527592005428}
+  - {fileID: 543438543207767355}
+  - {fileID: 5529779701931462136}
+  - {fileID: 2924224350664207835}
+  - {fileID: 1422977889096475624}
+  - {fileID: 5471414337010803991}
+  - {fileID: 520176171843411687}
+--- !u!114 &454777350065734475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Sag du es mir! Scheinbar muss dich etwas Bestimmtes in meine Bar gef\xFChrt
+    haben... Du bist sicherlich nicht ohne Grund hier. Erz\xE4hl mir davon? "
+  time: 100
+  skippable: 1
+--- !u!114 &59404527592005428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &543438543207767355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 1
+--- !u!114 &5529779701931462136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Der Drink war zwar f\xFCr die F\xFC\xDFe, aber immerhin bist du einf\xFChlsam.
+    Tja, eigentlich wollte ich mich nur ein bisschen gehen lassen, da meine Freundin
+    Cholera mit mir Schluss gemacht hat."
+  time: 100
+  skippable: 1
+--- !u!114 &2924224350664207835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 0
+--- !u!114 &1422977889096475624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &5471414337010803991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Da k\xF6nnte mir eine Ablenkung vielleicht ganz guttun. Ich bin dabei!"
+  time: 100
+  skippable: 1
+--- !u!114 &520176171843411687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280419319912335212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
+--- !u!1 &1312854665098416303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7717969457211658615}
+  - component: {fileID: 4545016530454051217}
+  - component: {fileID: 374391020297458334}
+  m_Layer: 5
+  m_Name: Angry
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &7717969457211658615
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312854665098416303}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0061086393, w: 0.99998134}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.325, y: 0.325, z: 0.325}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 987837442275109257}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.7}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -20, y: 240.7}
+  m_SizeDelta: {x: 2360, y: 1640}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4545016530454051217
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312854665098416303}
+  m_CullTransparentMesh: 1
+--- !u!114 &374391020297458334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312854665098416303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 99eb3d3f0d8c5ed46a964078e29b6fa2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1433525178376275752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6085890411614329382}
+  - component: {fileID: 3391856013881711407}
+  m_Layer: 0
+  m_Name: Jukebox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6085890411614329382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433525178376275752}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1270081493295339529}
+  m_Father: {fileID: 8955404393611817877}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &3391856013881711407
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433525178376275752}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d64791ef0cbeb3740a1bdbbf700c1cc7, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.02
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &1603828527313367497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6758879906078968124}
+  - component: {fileID: 8108880708132849451}
+  - component: {fileID: 2980854606411871814}
+  m_Layer: 5
+  m_Name: Sad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &6758879906078968124
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603828527313367497}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0061086393, w: 0.99998134}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.325, y: 0.325, z: 0.325}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 987837442275109257}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.7}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -36.5, y: 234.7}
+  m_SizeDelta: {x: 2360, y: 1700}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8108880708132849451
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603828527313367497}
+  m_CullTransparentMesh: 1
+--- !u!114 &2980854606411871814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603828527313367497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: babb0b53eb7b3344d855f717e4f9413a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1767117772947844738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3290676100637410478}
+  - component: {fileID: 4138881541927471751}
+  - component: {fileID: 5805449789265915252}
+  - component: {fileID: 7615553440314972753}
+  - component: {fileID: 959153730483409536}
+  - component: {fileID: 8878698951396746079}
+  - component: {fileID: 18204967647966625}
+  - component: {fileID: 4063767951997350763}
+  - component: {fileID: 1496251258026288688}
+  - component: {fileID: 4279142703137978439}
+  m_Layer: 0
+  m_Name: Dialogue_GoodTaste_Conversation_C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3290676100637410478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1558511720469818621}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4138881541927471751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 5805449789265915252}
+  - {fileID: 7615553440314972753}
+  - {fileID: 959153730483409536}
+  - {fileID: 8878698951396746079}
+  - {fileID: 18204967647966625}
+  - {fileID: 4063767951997350763}
+  - {fileID: 1496251258026288688}
+  - {fileID: 4279142703137978439}
+--- !u!114 &5805449789265915252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "M\xF6glicherweise steckt auch ein wenig B\xF6ses in mir, aber meine
+    Motive sind edler Natur. Ich m\xF6chte die alte Ordnung dieser Welt st\xFCrzen
+    und sie neu auferstehen lassen! "
+  time: 100
+  skippable: 1
+--- !u!114 &7615553440314972753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Der Diskriminierung der Unterschicht ein Ende setzen und eine freie
+    Welt f\xFCr alle schaffen! "
+  time: 100
+  skippable: 1
+--- !u!114 &959153730483409536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Kommt darauf an, wen du fragst. F\xFCr andere m\xF6gen deine Motive
+    nicht so edel sein, wie du glaubst."
+  time: 100
+  skippable: 1
+--- !u!114 &8878698951396746079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &18204967647966625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &4063767951997350763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Aber immerhin ist Tod und Vernichtung irgendwie auch mein Job, also
+    bin ich dabei! Etwas Ablenkung k\xF6nnte mir ohnehin guttun! Noch einen Drink
+    bitte."
+  time: 100
+  skippable: 1
+--- !u!114 &1496251258026288688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
+--- !u!114 &4279142703137978439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767117772947844738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
+--- !u!1 &1968099827112273771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 727457231331266860}
+  - component: {fileID: 9062226892202077236}
+  - component: {fileID: 4306218525725660762}
+  - component: {fileID: 7603261242005154146}
+  - component: {fileID: 7059282388837992857}
+  - component: {fileID: 44230235371711513}
+  - component: {fileID: 5632649616888453092}
+  m_Layer: 0
+  m_Name: Dialogue_GoodTaste_Conversation_B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &727457231331266860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968099827112273771}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1558511720469818621}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9062226892202077236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968099827112273771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 4306218525725660762}
+  - {fileID: 7603261242005154146}
+  - {fileID: 7059282388837992857}
+  - {fileID: 44230235371711513}
+  - {fileID: 5632649616888453092}
+--- !u!114 &4306218525725660762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968099827112273771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Es gibt eine bestimmte Gruppe von Menschen, die mir ein Dorn im Auge
+    ist. Ich m\xF6chte sie vernichten! Mit deiner Macht w\xE4ren wir zusammen unaufhaltbar!  "
+  time: 100
+  skippable: 1
+--- !u!114 &7603261242005154146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968099827112273771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &7059282388837992857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968099827112273771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 1
+--- !u!114 &44230235371711513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968099827112273771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: 'Du hast recht. Ich habe diese Macht. Doch ich werde sie nicht nutzen,
+    um deinen egoistischen Motiven zu nutzen! '
+  time: 100
+  skippable: 1
+--- !u!114 &5632649616888453092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968099827112273771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
+--- !u!1 &2160497552470237772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6081046840781743634}
+  - component: {fileID: 5151393196656292592}
+  - component: {fileID: 4945260343072737444}
+  m_Layer: 5
+  m_Name: Happy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &6081046840781743634
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2160497552470237772}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0061086393, w: 0.99998134}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.33, y: 0.33, z: 0.33}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 987837442275109257}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.7}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -15.4, y: 240}
+  m_SizeDelta: {x: 2360, y: 1640}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5151393196656292592
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2160497552470237772}
+  m_CullTransparentMesh: 1
+--- !u!114 &4945260343072737444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2160497552470237772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2abdfc059e8c33048b51e39333988e78, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2757625991631724082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8247615891886841649}
+  - component: {fileID: 4175649585089010798}
+  - component: {fileID: 6066879170744676427}
+  - component: {fileID: 7703310011480381490}
+  - component: {fileID: 8890385317142224453}
+  - component: {fileID: 5244202515976788441}
+  - component: {fileID: 7029166691302341589}
+  m_Layer: 0
+  m_Name: Dialogue_A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8247615891886841649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757625991631724082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3894181972747028086}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4175649585089010798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757625991631724082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 6066879170744676427}
+  - {fileID: 7703310011480381490}
+  - {fileID: 8890385317142224453}
+  - {fileID: 5244202515976788441}
+  - {fileID: 7029166691302341589}
+--- !u!114 &6066879170744676427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757625991631724082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Ich dachte mir, dass du auf Verw\xFCstung stehst. Es w\xE4re eine
+    gute Gelegenheit f\xFCr dich, mal wieder in Action zu sein! Ich w\xFCrde dir
+    sogar gratis Drinks f\xFCr alle Ewigkeit anbieten! "
+  time: 100
+  skippable: 1
+--- !u!114 &7703310011480381490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757625991631724082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &8890385317142224453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757625991631724082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 1
+--- !u!114 &5244202515976788441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757625991631724082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Zuerst mixt du mir einen ekelhaften Drink und anschlie\xDFend bist
+    du auch noch so dreist, mich nach meiner Hilfe zu bitten, mal kurz die Welt zu
+    zerst\xF6ren?! Du kannst dir deine Drinks f\xFCr alle Ewigkeit sonst wohin schieben!"
+  time: 100
+  skippable: 1
+--- !u!114 &7029166691302341589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2757625991631724082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
+--- !u!1 &3391513770970861693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8675883517755755267}
+  - component: {fileID: 1393706999740881038}
+  - component: {fileID: 6505825318981986738}
+  - component: {fileID: 2260387958738728356}
+  - component: {fileID: 5794032807812484113}
+  - component: {fileID: 935474178925001587}
+  - component: {fileID: 8948552111962229437}
+  - component: {fileID: 4021777731374473293}
+  - component: {fileID: 9171466403900452052}
+  - component: {fileID: 8811675628019108532}
+  - component: {fileID: 4619201525841570037}
+  - component: {fileID: 450650040557906795}
+  - component: {fileID: 4621993366160030864}
+  - component: {fileID: 5803416470436297695}
+  - component: {fileID: 4472295597735283326}
+  - component: {fileID: 9054596087249754309}
+  - component: {fileID: 7510978044830153843}
+  - component: {fileID: 4711096413543783052}
+  - component: {fileID: 4212553704996481687}
+  - component: {fileID: 5343044658946667040}
+  - component: {fileID: 2977534717753018243}
+  m_Layer: 0
+  m_Name: Dialogue_Initial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8675883517755755267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5247422602530911333}
+  m_Father: {fileID: 3369521145705174839}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1393706999740881038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 6505825318981986738}
+  - {fileID: 2260387958738728356}
+  - {fileID: 5794032807812484113}
+  - {fileID: 935474178925001587}
+  - {fileID: 8948552111962229437}
+  - {fileID: 4021777731374473293}
+  - {fileID: 9171466403900452052}
+  - {fileID: 8811675628019108532}
+  - {fileID: 4619201525841570037}
+  - {fileID: 450650040557906795}
+  - {fileID: 4621993366160030864}
+  - {fileID: 5803416470436297695}
+  - {fileID: 4472295597735283326}
+  - {fileID: 9054596087249754309}
+  - {fileID: 7510978044830153843}
+  - {fileID: 4711096413543783052}
+  - {fileID: 4212553704996481687}
+  - {fileID: 5343044658946667040}
+  - {fileID: 2977534717753018243}
+--- !u!114 &6505825318981986738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47df925572eb44428da37ec9be327b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTimeInSeconds: 1
+--- !u!114 &2260387958738728356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: 
+  textToShow: "Die Pest, eine kn\xF6cherne Gestalt mit einem schwarzen Umhang, betritt
+    die Bar"
+  time: 100
+  skippable: 1
+--- !u!114 &5794032807812484113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 1
+--- !u!114 &935474178925001587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: 'Guten Abend! Mit wem habe ich es denn heute zu tun? '
+  time: 100
+  skippable: 1
+--- !u!114 &8948552111962229437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &4021777731374473293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &9171466403900452052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Vor dir steht die Pest! Der Schwarze Tod! Und das ist meine treue
+    Gef\xE4hrtin Peanut."
+  time: 100
+  skippable: 1
+--- !u!114 &8811675628019108532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Mein Ein und Alles! Sie hilft mir, die schwersten Zeiten zu \xFCberstehen. "
+  time: 100
+  skippable: 1
+--- !u!114 &4619201525841570037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
+--- !u!114 &450650040557906795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 1
+--- !u!114 &4621993366160030864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Sehr erfreut! Was f\xFChrt dich in meine bescheidene Bar? "
+  time: 100
+  skippable: 1
+--- !u!114 &5803416470436297695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &4472295597735283326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 1
+--- !u!114 &9054596087249754309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: Um ehrlich zu sein, hatte ich einen ziemlich beschissenen Tag
+  time: 100
+  skippable: 1
+--- !u!114 &7510978044830153843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 0
+--- !u!114 &4711096413543783052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &4212553704996481687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: 'und will mich heute mal so richtig gehen lassen! '
+  time: 100
+  skippable: 1
+--- !u!114 &5343044658946667040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
+--- !u!114 &2977534717753018243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3391513770970861693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00d3522e9b7d7943b2200487478556b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conversation: {fileID: 931855706054455151}
+  type: 0
+  index: 0
+  enableValue: 0
+--- !u!1 &3739821261340043768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3369521145705174839}
+  m_Layer: 0
+  m_Name: Pest_Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3369521145705174839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3739821261340043768}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8675883517755755267}
+  - {fileID: 7562278591881821847}
+  - {fileID: 7018897805254684981}
+  m_Father: {fileID: 8955404393611817877}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3859117642733402621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1558511720469818621}
+  - component: {fileID: 4869496595000158724}
+  m_Layer: 0
+  m_Name: Dialogue_GoodTaste_Conversation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1558511720469818621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3859117642733402621}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -948.74646, y: -4.6591187, z: -760.38666}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4963067947888510619}
+  - {fileID: 727457231331266860}
+  - {fileID: 3290676100637410478}
+  m_Father: {fileID: 7018897805254684981}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4869496595000158724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3859117642733402621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7f41d0218fcd441a24e0228efaa46e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  welcomeSequence: {fileID: 0}
+  options:
+  - name: A
+    text: A. Erneuerung der alten Welt.
+    enabled: 1
+    endConversationAfterwards: 1
+    sequence: {fileID: 5201586803150775972}
+    open: 1
+  - name: B
+    text: B. Es gibt da eine bestimmte Gruppe von Menschen...
+    enabled: 1
+    endConversationAfterwards: 1
+    sequence: {fileID: 9062226892202077236}
+    open: 1
+  - name: C
+    text: "C. Freie Welt f\xFCr alle."
+    enabled: 1
+    endConversationAfterwards: 1
+    sequence: {fileID: 4138881541927471751}
+    open: 1
+--- !u!1 &5349953705763796095
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4542238068710450482}
+  - component: {fileID: 1614663970032257261}
+  - component: {fileID: 1779707837262265160}
+  m_Layer: 5
+  m_Name: Neutral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &4542238068710450482
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5349953705763796095}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0061086393, w: 0.99998134}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 987837442275109257}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.7}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -20, y: 235}
+  m_SizeDelta: {x: 2360, y: 1640}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1614663970032257261
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5349953705763796095}
+  m_CullTransparentMesh: 1
+--- !u!114 &1779707837262265160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5349953705763796095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b774aea051e5d4c49a779cf7e91f4f32, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &6199629676552861549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7304764917599532144}
+  - component: {fileID: 1963636793947729176}
+  m_Layer: 0
+  m_Name: GoodEndingStarter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7304764917599532144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199629676552861549}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8955404393611817877}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1963636793947729176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199629676552861549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45bb1078a2fe85146a7e075513dc03cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seq: {fileID: 6026063683332175276}
+--- !u!1 &6426014894000020224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2265696707418095756}
+  - component: {fileID: 5386209667890883252}
+  m_Layer: 0
+  m_Name: InitialDialogueStarter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2265696707418095756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6426014894000020224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8955404393611817877}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5386209667890883252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6426014894000020224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45bb1078a2fe85146a7e075513dc03cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seq: {fileID: 1393706999740881038}
+--- !u!1 &7183682189823395625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7018897805254684981}
+  - component: {fileID: 6026063683332175276}
+  - component: {fileID: 5331937996549001722}
+  - component: {fileID: 7144935147736072146}
+  - component: {fileID: 7141546995858566733}
+  - component: {fileID: 4750435984508434177}
+  - component: {fileID: 3945091594653821148}
+  - component: {fileID: 6908328155319681292}
+  - component: {fileID: 6332885442349811177}
+  - component: {fileID: 1570585314374621189}
+  - component: {fileID: 6987038000476227648}
+  - component: {fileID: 3653476998493098977}
+  m_Layer: 0
+  m_Name: Dialogue_GoodTaste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7018897805254684981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.62677, y: -267.67044, z: 380.19333}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1558511720469818621}
+  m_Father: {fileID: 3369521145705174839}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6026063683332175276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 5331937996549001722}
+  - {fileID: 7144935147736072146}
+  - {fileID: 7141546995858566733}
+  - {fileID: 4750435984508434177}
+  - {fileID: 3945091594653821148}
+  - {fileID: 6908328155319681292}
+  - {fileID: 6332885442349811177}
+  - {fileID: 1570585314374621189}
+  - {fileID: 6987038000476227648}
+  - {fileID: 3653476998493098977}
+--- !u!114 &5331937996549001722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 748764807259774061}
+  state: 1
+--- !u!114 &7144935147736072146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: 'Darf ich vorstellen: Der Eternal Hellfire! '
+  time: 100
+  skippable: 1
+--- !u!114 &7141546995858566733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &4750435984508434177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &3945091594653821148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Godzilla
+  textToShow: "Hervorragend! Ich habe noch nie so etwas K\xF6stliches getrunken!
+    Ich habe mich schon lange nicht mehr so lebendig gef\xFChlt!"
+  time: 100
+  skippable: 1
+--- !u!114 &6908328155319681292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
+--- !u!114 &6332885442349811177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 1
+--- !u!114 &1570585314374621189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Das freut mich! Falls du dich noch lebendiger f\xFChlen m\xF6chtest,
+    h\xE4tte ich ein Angebot f\xFCr dich. Hilf mir, Chaos zu verursachen und die
+    Oberwelt zu zerst\xF6ren!  "
+  time: 100
+  skippable: 1
+--- !u!114 &6987038000476227648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Interessant.  Hast du bestimmte Motive oder bist du einfach nur b\xF6se? "
+  time: 100
+  skippable: 1
+--- !u!114 &3653476998493098977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7183682189823395625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00d3522e9b7d7943b2200487478556b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  conversation: {fileID: 4869496595000158724}
+  type: 0
+  index: 0
+  enableValue: 0
+--- !u!1 &7589772985806909198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4739452420348106095}
+  - component: {fileID: 6015404932010119060}
+  - component: {fileID: 5031454396417339357}
+  - component: {fileID: 5597734926425856276}
+  - component: {fileID: 4588057697124675607}
+  - component: {fileID: 5072490621824312150}
+  - component: {fileID: 3369148047877218433}
+  - component: {fileID: 2179617804875814131}
+  - component: {fileID: 2399075898936739680}
+  - component: {fileID: 4897684572710724200}
+  m_Layer: 0
+  m_Name: Dialogue_C
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4739452420348106095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3894181972747028086}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6015404932010119060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 5031454396417339357}
+  - {fileID: 5597734926425856276}
+  - {fileID: 4588057697124675607}
+  - {fileID: 5072490621824312150}
+  - {fileID: 3369148047877218433}
+  - {fileID: 2179617804875814131}
+  - {fileID: 2399075898936739680}
+  - {fileID: 4897684572710724200}
+--- !u!114 &5031454396417339357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "So wie ich das sehe, hast du seit deinem letzten gro\xDFen Ding ganz
+    sch\xF6n abgebaut. Ich biete dir die einmalige Chance, auf deine alten Tage nochmal
+    so richtig auf die Kacke zu hauen! "
+  time: 100
+  skippable: 1
+--- !u!114 &5597734926425856276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &4588057697124675607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 1
+--- !u!114 &5072490621824312150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: 'So alt bin ich noch gar nicht! Na warte, ich werde dir zeigen, wozu
+    ich noch imstande bin! '
+  time: 100
+  skippable: 1
+--- !u!114 &3369148047877218433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 0
+--- !u!114 &2179617804875814131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &2399075898936739680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: Aber zuerst mixt du mir einen Drink, der hoffentlich etwas besser schmeckt!
+  time: 100
+  skippable: 1
+--- !u!114 &4897684572710724200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7589772985806909198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
+--- !u!1 &9159280608249462914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3405549456015931799}
+  - component: {fileID: 3800937440737900414}
+  - component: {fileID: 726555350395633125}
+  - component: {fileID: 3286630938023650580}
+  - component: {fileID: 636528187076109195}
+  - component: {fileID: 4064672090400531652}
+  - component: {fileID: 452914147522423591}
+  - component: {fileID: 2622235026125644842}
+  - component: {fileID: 4497322803366119254}
+  - component: {fileID: 4272427384469398088}
+  - component: {fileID: 129007598093106228}
+  - component: {fileID: 4483147030129980122}
+  - component: {fileID: 7600745460259320922}
+  - component: {fileID: 3010651648524251870}
+  - component: {fileID: 7014697618176485455}
+  - component: {fileID: 7208809367564383191}
+  - component: {fileID: 3519473405786505400}
+  - component: {fileID: 7137611531689938857}
+  - component: {fileID: 1068170904426134198}
+  - component: {fileID: 2168477808162572448}
+  - component: {fileID: 1570650205797487083}
+  - component: {fileID: 851539783390351438}
+  m_Layer: 0
+  m_Name: Smalltalk_B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3405549456015931799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5247422602530911333}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3800937440737900414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 726555350395633125}
+  - {fileID: 3286630938023650580}
+  - {fileID: 636528187076109195}
+  - {fileID: 4064672090400531652}
+  - {fileID: 452914147522423591}
+  - {fileID: 2622235026125644842}
+  - {fileID: 4497322803366119254}
+  - {fileID: 4272427384469398088}
+  - {fileID: 129007598093106228}
+  - {fileID: 4483147030129980122}
+  - {fileID: 7600745460259320922}
+  - {fileID: 3010651648524251870}
+  - {fileID: 7014697618176485455}
+  - {fileID: 7208809367564383191}
+  - {fileID: 3519473405786505400}
+  - {fileID: 7137611531689938857}
+  - {fileID: 1068170904426134198}
+  - {fileID: 2168477808162572448}
+  - {fileID: 1570650205797487083}
+  - {fileID: 851539783390351438}
+--- !u!114 &726555350395633125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 1
+--- !u!114 &3286630938023650580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "M\xF6chtest du mir mehr davon erz\xE4hlen? Wie du sicher wei\xDFt,
+    k\xF6nnen wir Barkeeper ziemlich gut zuh\xF6ren! "
+  time: 100
+  skippable: 1
+--- !u!114 &636528187076109195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &4064672090400531652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 1
+--- !u!114 &452914147522423591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Wir kennen uns nicht mal 2 Minuten und ich soll dir von meinen Gef\xFChlen
+    erz\xE4hlen? Wie w\xE4re es, wenn du mir erstmal einen Drink mixen w\xFCrdest? "
+  time: 100
+  skippable: 1
+--- !u!114 &2622235026125644842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 0
+--- !u!114 &4497322803366119254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 1
+--- !u!114 &4272427384469398088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Kein Grund, passiv-aggressiv zu werden. Was m\xF6chtest du trinken? "
+  time: 100
+  skippable: 1
+--- !u!114 &129007598093106228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &4483147030129980122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &7600745460259320922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Heute gel\xFCstet es mir nach einem Drink mit ordentlich Feuer!"
+  time: 100
+  skippable: 1
+--- !u!114 &3010651648524251870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
+--- !u!114 &7014697618176485455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 1
+--- !u!114 &7208809367564383191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "In letzter Zeit hatte ich nicht viel, wor\xFCber ich mich freuen konnte.
+    Ich muss die Leere in mir f\xFCllen."
+  time: 100
+  skippable: 1
+--- !u!114 &3519473405786505400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1603828527313367497}
+  state: 0
+--- !u!114 &7137611531689938857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 1
+--- !u!114 &1068170904426134198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "\xDCberrasche mich! "
+  time: 100
+  skippable: 1
+--- !u!114 &2168477808162572448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Ich glaube, ich habe genau das Richtige f\xFCr dich!  "
+  time: 100
+  skippable: 1
+--- !u!114 &1570650205797487083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 2160497552470237772}
+  state: 0
+--- !u!114 &851539783390351438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9159280608249462914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 1
+--- !u!1 &9209628641190684922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4963067947888510619}
+  - component: {fileID: 5201586803150775972}
+  - component: {fileID: 1386548803371130094}
+  - component: {fileID: 5249818537819819914}
+  - component: {fileID: 3609582598728642887}
+  - component: {fileID: 4817065801838782031}
+  - component: {fileID: 3118448406562695395}
+  - component: {fileID: 3188405033856623365}
+  - component: {fileID: 531711894939046852}
+  m_Layer: 0
+  m_Name: Dialogue_GoodTaste_Conversation_A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4963067947888510619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209628641190684922}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1558511720469818621}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5201586803150775972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209628641190684922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 1386548803371130094}
+  - {fileID: 5249818537819819914}
+  - {fileID: 3609582598728642887}
+  - {fileID: 4817065801838782031}
+  - {fileID: 3118448406562695395}
+  - {fileID: 3188405033856623365}
+  - {fileID: 531711894939046852}
+--- !u!114 &1386548803371130094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209628641190684922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Die verdorbene Welt des Reichtums und der Macht, die sich die Oberwelt
+    nennt, hat uns Unterweltler abgewiesen. Zu ge\xE4chteten gemacht. Nun haben wir
+    gemeinsam die Chance, die Welt in den Untergang zu st\xFCrzen und nach unseren
+    Vorstellungen neu zu formen! "
+  time: 100
+  skippable: 1
+--- !u!114 &5249818537819819914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209628641190684922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 1
+--- !u!114 &3609582598728642887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209628641190684922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Dein Angebot klingt verlockend, Mensch. Ich hatte schon l\xE4nger
+    \xFCber ein Comeback nachgedacht!"
+  time: 100
+  skippable: 1
+--- !u!114 &4817065801838782031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209628641190684922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 5349953705763796095}
+  state: 0
+--- !u!114 &3118448406562695395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209628641190684922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1312854665098416303}
+  state: 1
+--- !u!114 &3188405033856623365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209628641190684922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Die Pest
+  textToShow: "Doch sei gewarnt, wenn du mich t\xE4uschen solltest, wird deine Strafe
+    schlimmer sein als alles, was du dir vorstellen kannst."
+  time: 100
+  skippable: 1
+--- !u!114 &531711894939046852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9209628641190684922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
