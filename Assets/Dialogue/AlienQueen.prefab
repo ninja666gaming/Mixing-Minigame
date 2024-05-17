@@ -2784,7 +2784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameToShow: Cthulhu
+  nameToShow: 'Alien Queen '
   textToShow: "Normalerweise lasse ich mich nicht so behandeln, aber vielleicht habt
     ihr recht. Manchmal muss eine K\xF6nigin auch Milde walten lassen. "
   time: 100
