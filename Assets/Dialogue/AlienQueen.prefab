@@ -273,6 +273,7 @@ GameObject:
   - component: {fileID: 5954396122454794092}
   - component: {fileID: 3804925368921586159}
   - component: {fileID: 6645594805720921298}
+  - component: {fileID: 5439073234240001233}
   - component: {fileID: 1449460355521855174}
   - component: {fileID: 885834592872526189}
   - component: {fileID: 6622675228941486859}
@@ -321,6 +322,7 @@ MonoBehaviour:
   - {fileID: 5954396122454794092}
   - {fileID: 3804925368921586159}
   - {fileID: 6645594805720921298}
+  - {fileID: 5439073234240001233}
   - {fileID: 1449460355521855174}
   - {fileID: 885834592872526189}
   - {fileID: 6622675228941486859}
@@ -399,9 +401,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: 'Alien Queen '
-  textToShow: "Spar dir die Schmeicheleien, damit kommst du bei mir nicht weit! 
-    Scheu\xDFlich! Wie kannst du mir nur so einen Mist unterjubeln?! Das kann man
-    ja keinem Esel ins Ohr kippen!  "
+  textToShow: 'Spar dir die Schmeicheleien, damit kommst du bei mir nicht weit! '
+  time: 100
+  skippable: 1
+--- !u!114 &5439073234240001233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824424334764580765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Alien Queen
+  textToShow: "Scheu\xDFlich! Wie kannst du mir nur so einen Mist unterjubeln?! Das
+    kann man ja keinem Esel ins Ohr kippen! "
   time: 100
   skippable: 1
 --- !u!114 &1449460355521855174
@@ -513,6 +530,8 @@ GameObject:
   - component: {fileID: 4798763739161447903}
   - component: {fileID: 7273763831328161497}
   - component: {fileID: 1965146550944577817}
+  - component: {fileID: 4755103666229829116}
+  - component: {fileID: 4976118841365666132}
   - component: {fileID: 2817686071335743071}
   m_Layer: 0
   m_Name: Smalltalk_A
@@ -552,6 +571,8 @@ MonoBehaviour:
   actions:
   - {fileID: 7273763831328161497}
   - {fileID: 1965146550944577817}
+  - {fileID: 4755103666229829116}
+  - {fileID: 4976118841365666132}
   - {fileID: 2817686071335743071}
 --- !u!114 &7273763831328161497
 MonoBehaviour:
@@ -585,6 +606,39 @@ MonoBehaviour:
   nameToShow: 'Alien Queen '
   textToShow: "Genau. Und deswegen erwarte ich, dass du mich angemessen behandelst.
     Ich habe schon viele f\xFCr weit weniger zur Strecke gebracht! "
+  time: 100
+  skippable: 1
+--- !u!114 &4755103666229829116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: Bob der Bartender
+  textToShow: "Keine Sorge, f\xFCr die K\xF6nigin gibt es die Spezialbehandlung!"
+  time: 100
+  skippable: 1
+--- !u!114 &4976118841365666132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862584487452093607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c06970a793bd9d4db6e1e9461d75f7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameToShow: 'Alien Queen '
+  textToShow: 'Versuch nicht mich auf den Arm zu nehmen, oder es wird dich teuer
+    zu stehen kommen! '
   time: 100
   skippable: 1
 --- !u!114 &2817686071335743071
@@ -1790,8 +1844,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Alien Queen
-  textToShow: "Doch das Ambiente gleicht eher einer Gef\xE4ngniszelle als einem Etablissement,
-    das einer K\xF6nigin w\xFCrdig w\xE4re! "
+  textToShow: "Doch das Ambiente gleicht eher einer Gef\xE4ngniszelle, als einem
+    Etablissement, das einer K\xF6nigin w\xFCrdig w\xE4re! "
   time: 100
   skippable: 1
 --- !u!114 &8811675628019108532
@@ -2119,7 +2173,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameToShow: Bob der Bartender
-  textToShow: "Gibt es etwas Bestimmtes, das ich f\xFCr euch zubereiten soll?"
+  textToShow: "Also dann: Gibt es etwas Bestimmtes, das ich f\xFCr euch zubereiten
+    soll?"
   time: 100
   skippable: 1
 --- !u!114 &7812959593504492487
