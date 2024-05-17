@@ -23,4 +23,5 @@ public class ScenenWechsel : MonoBehaviour
     {
         SceneManager.LoadScene(nextScene);
     }
+
 }
