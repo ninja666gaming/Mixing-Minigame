@@ -21,6 +21,7 @@ public class DrinkResults : MonoBehaviour
     public intensitycounter intensitylevel;
     public sweatnesscounter sweatnesslevel;
     public thicknesscounter thicknesslevel;
+    public resetbutton resetfunction;
     public static int stageCounter = 1;
     [SerializeField] GameObject badTaste;
     [SerializeField] GameObject goodTaste;
@@ -155,4 +156,5 @@ public class DrinkResults : MonoBehaviour
             }
         }
     }
+    resetbutton.resetpressed()
 }
