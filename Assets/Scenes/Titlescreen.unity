@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: GodzillaScene
+  sceneName: CthulhuScene
 --- !u!114 &385072179
 MonoBehaviour:
   m_ObjectHideFlags: 0
