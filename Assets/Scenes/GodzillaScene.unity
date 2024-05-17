@@ -483,7 +483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value1: 1
   value2: 0
-  value3: 1
+  value3: -1
 --- !u!114 &112692526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -638,7 +638,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.0802612, y: -1.2437744}
+  m_AnchoredPosition: {x: 1.109, y: -1.234}
   m_SizeDelta: {x: 42.339966, y: -120.2121}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &145836966
@@ -864,7 +864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value1: 0
-  value2: 1
+  value2: 2
   value3: -1
 --- !u!114 &174743188
 MonoBehaviour:
@@ -1307,8 +1307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bf2b3b5d27df5498900d835c818823, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value1: 2
-  value2: 0
+  value1: 0
+  value2: -2
   value3: -1
 --- !u!114 &257541152
 MonoBehaviour:
@@ -3135,7 +3135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bf2b3b5d27df5498900d835c818823, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value1: 0
+  value1: 1
   value2: 1
   value3: 0
 --- !u!114 &904138603
@@ -3868,7 +3868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value1: 1
-  value2: 1
+  value2: 0
   value3: 0
 --- !u!114 &1148253038
 MonoBehaviour:
@@ -4592,7 +4592,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.0800171, y: 0.7094269}
+  m_AnchoredPosition: {x: 1.072, y: 0.742}
   m_SizeDelta: {x: 42.30005, y: -120.2121}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1416929714
@@ -5529,8 +5529,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   value1: -1
-  value2: 2
-  value3: 0
+  value2: 0
+  value3: 2
 --- !u!114 &1637127344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5681,9 +5681,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bf2b3b5d27df5498900d835c818823, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value1: -2
+  value1: 1
   value2: 0
-  value3: -1
+  value3: 1
 --- !u!114 &1660681817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6104,7 +6104,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.079834, y: -0.21298218}
+  m_AnchoredPosition: {x: 1.081, y: -0.227}
   m_SizeDelta: {x: 42.339966, y: -120.2121}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1879234785
@@ -6257,9 +6257,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65bf2b3b5d27df5498900d835c818823, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value1: 0
+  value1: 2
   value2: -1
-  value3: 2
+  value3: 0
 --- !u!114 &1937411702
 MonoBehaviour:
   m_ObjectHideFlags: 0
