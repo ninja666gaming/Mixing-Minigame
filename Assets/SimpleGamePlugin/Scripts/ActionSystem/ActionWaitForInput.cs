@@ -28,6 +28,7 @@ namespace Course.PrototypeScripting
                 {
                     case InputType.Keyboard:
                         if (UnityEngine.Input.GetKeyDown(inputKey))
+                            Debug.Log("LeftClick");
                             ContinueSequence();
                         break;
                     case InputType.Mouse:

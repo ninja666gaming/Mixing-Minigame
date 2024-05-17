@@ -437,14 +437,13 @@ GameObject:
   - component: {fileID: 385072185}
   - component: {fileID: 385072186}
   - component: {fileID: 385072184}
-  - component: {fileID: 385072183}
   - component: {fileID: 385072188}
   - component: {fileID: 385072192}
   - component: {fileID: 385072191}
   - component: {fileID: 385072189}
   - component: {fileID: 385072181}
   - component: {fileID: 385072187}
-  - component: {fileID: 385072194}
+  - component: {fileID: 385072193}
   - component: {fileID: 385072178}
   m_Layer: 0
   m_Name: IntroManager
@@ -483,14 +482,13 @@ MonoBehaviour:
   - {fileID: 385072185}
   - {fileID: 385072186}
   - {fileID: 385072184}
-  - {fileID: 385072183}
   - {fileID: 385072188}
   - {fileID: 385072192}
   - {fileID: 385072191}
   - {fileID: 385072189}
   - {fileID: 385072181}
   - {fileID: 385072187}
-  - {fileID: 385072194}
+  - {fileID: 385072193}
   - {fileID: 385072178}
 --- !u!4 &385072180
 Transform:
@@ -508,19 +506,6 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &385072181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 385072177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d47df925572eb44428da37ec9be327b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waitTimeInSeconds: 1
---- !u!114 &385072183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -659,7 +644,7 @@ MonoBehaviour:
     restliche Bev\xF6lkerung auf den tieferen Ebenen systematisch unterjocht."
   time: 100
   skippable: 1
---- !u!114 &385072194
+--- !u!114 &385072193
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -668,10 +653,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 385072177}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d47df925572eb44428da37ec9be327b3, type: 3}
+  m_Script: {fileID: 11500000, guid: ccd6595f286fb0a4db2be21dfc5a6a04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTimeInSeconds: 1
+  inputType: 1
+  inputKey: 0
+  mouseInput: 0
+  inputButtonName: 
 --- !u!1 &556946994
 GameObject:
   m_ObjectHideFlags: 0
