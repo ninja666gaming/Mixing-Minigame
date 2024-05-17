@@ -21,7 +21,7 @@ public class DrinkResults : MonoBehaviour
     public intensitycounter intensitylevel;
     public sweatnesscounter sweatnesslevel;
     public thicknesscounter thicknesslevel;
-    public static int stageCounter = 0;
+    public static int stageCounter = 1;
     [SerializeField] GameObject badTaste;
     [SerializeField] GameObject goodTaste;
 
