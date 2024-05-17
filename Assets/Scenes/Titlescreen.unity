@@ -444,7 +444,6 @@ GameObject:
   - component: {fileID: 385072189}
   - component: {fileID: 385072181}
   - component: {fileID: 385072187}
-  - component: {fileID: 385072193}
   - component: {fileID: 385072194}
   - component: {fileID: 385072178}
   m_Layer: 0
@@ -491,7 +490,6 @@ MonoBehaviour:
   - {fileID: 385072189}
   - {fileID: 385072181}
   - {fileID: 385072187}
-  - {fileID: 385072193}
   - {fileID: 385072194}
   - {fileID: 385072178}
 --- !u!4 &385072180
@@ -661,20 +659,6 @@ MonoBehaviour:
     restliche Bev\xF6lkerung auf den tieferen Ebenen systematisch unterjocht."
   time: 100
   skippable: 1
---- !u!114 &385072193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 385072177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  obj: {fileID: 1512287368}
-  state: 0
 --- !u!114 &385072194
 MonoBehaviour:
   m_ObjectHideFlags: 0
