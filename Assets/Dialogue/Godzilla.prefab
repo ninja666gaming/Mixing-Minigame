@@ -1732,7 +1732,7 @@ GameObject:
   - component: {fileID: 3004272159233221672}
   - component: {fileID: 6017314157436305815}
   - component: {fileID: 8683208152268980809}
-  - component: {fileID: 1281808351077902928}
+  - component: {fileID: 2429419235429240374}
   m_Layer: 0
   m_Name: SceneTransition
   m_TagString: Untagged
@@ -1751,8 +1751,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1484744323210275760}
+  m_Children: []
   m_Father: {fileID: 8955404393611817877}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1772,7 +1771,7 @@ MonoBehaviour:
   actions:
   - {fileID: 6017314157436305815}
   - {fileID: 8683208152268980809}
-  - {fileID: 1281808351077902928}
+  - {fileID: 2429419235429240374}
 --- !u!114 &6017314157436305815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1800,7 +1799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waitTimeInSeconds: 1
---- !u!114 &1281808351077902928
+--- !u!114 &2429419235429240374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1809,11 +1808,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1589865440632776519}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 4008568276472018292}
-  state: 1
+  sceneName: 
 --- !u!1 &1603828527313367497
 GameObject:
   m_ObjectHideFlags: 0
@@ -3058,51 +3056,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 748764807259774061}
   state: 0
---- !u!1 &4008568276472018292
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1484744323210275760}
-  - component: {fileID: 4627579518309225157}
-  m_Layer: 0
-  m_Name: SceneChanger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1484744323210275760
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4008568276472018292}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9084032476690344076}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4627579518309225157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4008568276472018292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: EndingScreen
 --- !u!1 &5349953705763796095
 GameObject:
   m_ObjectHideFlags: 0
