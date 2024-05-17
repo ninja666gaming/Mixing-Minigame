@@ -76,15 +76,18 @@ public class DrinkResults : MonoBehaviour
                     if (thicknesslevel.currentThickness > targetPower2)
                     {
                         Debug.Log("Superwin_2");
+                        goodTaste.SetActive(true);
                     }
                     else
                     {
                         Debug.Log("Halfwin_2");
+                        goodTaste.SetActive(true);
                     }
                 }
                 else
                 {
                     Debug.Log("Lose_2");
+                    badTaste.SetActive(true);
                 }
             }
             if (stageCounter == 3)
@@ -94,15 +97,18 @@ public class DrinkResults : MonoBehaviour
                     if (thicknesslevel.currentThickness > targetPower3)
                     {
                         Debug.Log("Superwin_3");
+                        goodTaste.SetActive(true);
                     }
                     else
                     {
                         Debug.Log("Halfwin_3");
+                        goodTaste.SetActive(true);
                     }
                 }
                 else
                 {
                     Debug.Log("Lose_3");
+                    badTaste.SetActive(true);
                 }
             }
             if (stageCounter == 4)
@@ -112,15 +118,18 @@ public class DrinkResults : MonoBehaviour
                     if (intensitylevel.currentintensity == targetLethality4)
                     {
                         Debug.Log("Superwin_4");
+                        goodTaste.SetActive(true);
                     }
                     else
                     {
                         Debug.Log("Halfwin_4");
+                        goodTaste.SetActive(true);
                     }
                 }
                 else
                 {
                     Debug.Log("Lose_4");
+                    badTaste.SetActive(true);
                 }
             }
             if (stageCounter == 5)
@@ -130,15 +139,18 @@ public class DrinkResults : MonoBehaviour
                     if ((intensitylevel.currentintensity == targetLethality5) && (sweatnesslevel.currentSweatness == targetAnger5) && (thicknesslevel.currentThickness == targetPower5))
                     {
                         Debug.Log("Superwin_5");
+                        goodTaste.SetActive(true);
                     }
                     else
                     {
                         Debug.Log("Halfwin_5");
+                        goodTaste.SetActive(true);
                     }
                 }
                 else
                 {
                     Debug.Log("Lose_5");
+                    badTaste.SetActive(true);
                 }
             }
         }
