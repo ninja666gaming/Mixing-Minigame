@@ -142,7 +142,7 @@ RectTransform:
   - {fileID: 7717969457211658615}
   - {fileID: 6081046840781743634}
   m_Father: {fileID: 8955404393611817877}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1311,6 +1311,7 @@ Transform:
   - {fileID: 2265696707418095756}
   - {fileID: 1533513064119016214}
   - {fileID: 7304764917599532144}
+  - {fileID: 9084032476690344076}
   - {fileID: 3369521145705174839}
   - {fileID: 987837442275109257}
   m_Father: {fileID: 0}
@@ -1333,7 +1334,7 @@ GameObject:
   - component: {fileID: 2924224350664207835}
   - component: {fileID: 1422977889096475624}
   - component: {fileID: 5471414337010803991}
-  - component: {fileID: 520176171843411687}
+  - component: {fileID: 2713059680351058423}
   m_Layer: 0
   m_Name: Dialogue_B
   m_TagString: Untagged
@@ -1377,7 +1378,7 @@ MonoBehaviour:
   - {fileID: 2924224350664207835}
   - {fileID: 1422977889096475624}
   - {fileID: 5471414337010803991}
-  - {fileID: 520176171843411687}
+  - {fileID: 2713059680351058423}
 --- !u!114 &454777350065734475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1485,7 +1486,7 @@ MonoBehaviour:
     die Welt verbessern! '
   time: 100
   skippable: 1
---- !u!114 &520176171843411687
+--- !u!114 &2713059680351058423
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1494,10 +1495,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1280419319912335212}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sequenceToStart: {fileID: 3004272159233221672}
 --- !u!1 &1312854665098416303
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,6 +1704,97 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1589865440632776519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9084032476690344076}
+  - component: {fileID: 3004272159233221672}
+  - component: {fileID: 6017314157436305815}
+  - component: {fileID: 8683208152268980809}
+  - component: {fileID: 9201204775748644692}
+  m_Layer: 0
+  m_Name: SceneTransition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9084032476690344076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589865440632776519}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8955404393611817877}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3004272159233221672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589865440632776519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f8f61d7ef208864c97a8f6249537488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowedGameState: -1
+  actions:
+  - {fileID: 6017314157436305815}
+  - {fileID: 8683208152268980809}
+--- !u!114 &6017314157436305815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589865440632776519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  state: 1
+--- !u!114 &8683208152268980809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589865440632776519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47df925572eb44428da37ec9be327b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTimeInSeconds: 1
+--- !u!114 &9201204775748644692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589865440632776519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab89aae59afed94a8fa16a3a5f7973a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: 
 --- !u!1 &1603828527313367497
 GameObject:
   m_ObjectHideFlags: 0
@@ -1795,7 +1887,7 @@ GameObject:
   - component: {fileID: 18204967647966625}
   - component: {fileID: 959153730483409536}
   - component: {fileID: 4063767951997350763}
-  - component: {fileID: 4279142703137978439}
+  - component: {fileID: 2625871845050967977}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_C
   m_TagString: Untagged
@@ -1838,7 +1930,7 @@ MonoBehaviour:
   - {fileID: 18204967647966625}
   - {fileID: 959153730483409536}
   - {fileID: 4063767951997350763}
-  - {fileID: 4279142703137978439}
+  - {fileID: 2625871845050967977}
 --- !u!114 &5805449789265915252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1934,7 +2026,7 @@ MonoBehaviour:
   textToShow: Ich bin fertig mit dir!
   time: 100
   skippable: 1
---- !u!114 &4279142703137978439
+--- !u!114 &2625871845050967977
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1943,10 +2035,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1767117772947844738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sequenceToStart: {fileID: 3004272159233221672}
 --- !u!1 &1968099827112273771
 GameObject:
   m_ObjectHideFlags: 0
@@ -1961,7 +2053,7 @@ GameObject:
   - component: {fileID: 7603261242005154146}
   - component: {fileID: 7059282388837992857}
   - component: {fileID: 44230235371711513}
-  - component: {fileID: 5632649616888453092}
+  - component: {fileID: 3384930714114777600}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_B
   m_TagString: Untagged
@@ -2002,7 +2094,7 @@ MonoBehaviour:
   - {fileID: 7603261242005154146}
   - {fileID: 7059282388837992857}
   - {fileID: 44230235371711513}
-  - {fileID: 5632649616888453092}
+  - {fileID: 3384930714114777600}
 --- !u!114 &4306218525725660762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2065,7 +2157,7 @@ MonoBehaviour:
     UWU"
   time: 100
   skippable: 1
---- !u!114 &5632649616888453092
+--- !u!114 &3384930714114777600
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2074,10 +2166,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1968099827112273771}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sequenceToStart: {fileID: 3004272159233221672}
 --- !u!1 &2160497552470237772
 GameObject:
   m_ObjectHideFlags: 0
@@ -2168,7 +2260,7 @@ GameObject:
   - component: {fileID: 7703310011480381490}
   - component: {fileID: 8890385317142224453}
   - component: {fileID: 5244202515976788441}
-  - component: {fileID: 7029166691302341589}
+  - component: {fileID: 1647623857098168099}
   m_Layer: 0
   m_Name: Dialogue_A
   m_TagString: Untagged
@@ -2209,7 +2301,7 @@ MonoBehaviour:
   - {fileID: 7703310011480381490}
   - {fileID: 8890385317142224453}
   - {fileID: 5244202515976788441}
-  - {fileID: 7029166691302341589}
+  - {fileID: 1647623857098168099}
 --- !u!114 &6066879170744676427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2273,7 +2365,7 @@ MonoBehaviour:
     um zu bekommen, was du willst! Nein danke! GRAAR! "
   time: 100
   skippable: 1
---- !u!114 &7029166691302341589
+--- !u!114 &1647623857098168099
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2282,10 +2374,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2757625991631724082}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sequenceToStart: {fileID: 3004272159233221672}
 --- !u!1 &3391513770970861693
 GameObject:
   m_ObjectHideFlags: 0
@@ -2551,7 +2643,7 @@ Transform:
   - {fileID: 7562278591881821847}
   - {fileID: 7018897805254684981}
   m_Father: {fileID: 8955404393611817877}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3859117642733402621
 GameObject:
@@ -3627,7 +3719,7 @@ GameObject:
   - component: {fileID: 5597734926425856276}
   - component: {fileID: 4588057697124675607}
   - component: {fileID: 5072490621824312150}
-  - component: {fileID: 4897684572710724200}
+  - component: {fileID: 758314673318666175}
   m_Layer: 0
   m_Name: Dialogue_C
   m_TagString: Untagged
@@ -3670,7 +3762,7 @@ MonoBehaviour:
   - {fileID: 5597734926425856276}
   - {fileID: 4588057697124675607}
   - {fileID: 5072490621824312150}
-  - {fileID: 4897684572710724200}
+  - {fileID: 758314673318666175}
 --- !u!114 &5031454396417339357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3767,7 +3859,7 @@ MonoBehaviour:
     Moment in dieser Bar wusste ich, dass wir f\xFCreinander bestimmt sind! UwU "
   time: 100
   skippable: 1
---- !u!114 &4897684572710724200
+--- !u!114 &758314673318666175
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3776,10 +3868,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7589772985806909198}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sequenceToStart: {fileID: 3004272159233221672}
 --- !u!1 &9159280608249462914
 GameObject:
   m_ObjectHideFlags: 0
@@ -4103,7 +4195,7 @@ GameObject:
   - component: {fileID: 3118448406562695395}
   - component: {fileID: 3188405033856623365}
   - component: {fileID: 2407825290799364778}
-  - component: {fileID: 531711894939046852}
+  - component: {fileID: 4649408931415154698}
   m_Layer: 0
   m_Name: Dialogue_GoodTaste_Conversation_A
   m_TagString: Untagged
@@ -4148,7 +4240,7 @@ MonoBehaviour:
   - {fileID: 3118448406562695395}
   - {fileID: 3188405033856623365}
   - {fileID: 2407825290799364778}
-  - {fileID: 531711894939046852}
+  - {fileID: 4649408931415154698}
 --- !u!114 &1386548803371130094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4271,7 +4363,7 @@ MonoBehaviour:
   textToShow: "Zusammen k\xF6nnen wir alles plattmachen! Wie romantisch! UWU"
   time: 100
   skippable: 1
---- !u!114 &531711894939046852
+--- !u!114 &4649408931415154698
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4280,7 +4372,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9209628641190684922}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 287d218118aa5824699d50b348c1535d, type: 3}
+  m_Script: {fileID: 11500000, guid: d2f2c4132be8dac44802adc3c8cc0ed0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sequenceToStart: {fileID: 3004272159233221672}
