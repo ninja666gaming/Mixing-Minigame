@@ -3274,7 +3274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7018897805254684981}
   - component: {fileID: 6026063683332175276}
-  - component: {fileID: 6249640747338025694}
+  - component: {fileID: 5331937996549001722}
   - component: {fileID: 7144935147736072146}
   - component: {fileID: 7141546995858566733}
   - component: {fileID: 4750435984508434177}
@@ -3325,7 +3325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allowedGameState: -1
   actions:
-  - {fileID: 6249640747338025694}
+  - {fileID: 5331937996549001722}
   - {fileID: 7144935147736072146}
   - {fileID: 7141546995858566733}
   - {fileID: 4750435984508434177}
@@ -3339,7 +3339,7 @@ MonoBehaviour:
   - {fileID: 3359218285749941635}
   - {fileID: 2864726900420855886}
   - {fileID: 3653476998493098977}
---- !u!114 &6249640747338025694
+--- !u!114 &5331937996549001722
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3351,7 +3351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad3b7dad434f3ce4ea01931794762a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 0}
+  obj: {fileID: 748764807259774061}
   state: 1
 --- !u!114 &7144935147736072146
 MonoBehaviour:
