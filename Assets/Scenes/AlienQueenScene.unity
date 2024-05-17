@@ -484,7 +484,11 @@ MonoBehaviour:
   value1: 0
   value2: 1
   value3: -1
+<<<<<<< HEAD:Assets/Scenes/AlienQueenScene.unity
   poursource: {fileID: 1601688345}
+=======
+  poursource: {fileID: 0}
+>>>>>>> 8de6b28da047f73af67c51985b5d7d00186aa132:Assets/Scenes/PestDialogueScene.unity
 --- !u!114 &112692526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -867,7 +871,11 @@ MonoBehaviour:
   value1: 2
   value2: 0
   value3: -1
+<<<<<<< HEAD:Assets/Scenes/AlienQueenScene.unity
   poursource: {fileID: 1601688345}
+=======
+  poursource: {fileID: 0}
+>>>>>>> 8de6b28da047f73af67c51985b5d7d00186aa132:Assets/Scenes/PestDialogueScene.unity
 --- !u!114 &174743188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1312,7 +1320,11 @@ MonoBehaviour:
   value1: -2
   value2: 0
   value3: -1
+<<<<<<< HEAD:Assets/Scenes/AlienQueenScene.unity
   poursource: {fileID: 1601688345}
+=======
+  poursource: {fileID: 0}
+>>>>>>> 8de6b28da047f73af67c51985b5d7d00186aa132:Assets/Scenes/PestDialogueScene.unity
 --- !u!114 &257541152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2852,7 +2864,11 @@ MonoBehaviour:
   value1: 1
   value2: 1
   value3: 0
+<<<<<<< HEAD:Assets/Scenes/AlienQueenScene.unity
   poursource: {fileID: 1601688345}
+=======
+  poursource: {fileID: 0}
+>>>>>>> 8de6b28da047f73af67c51985b5d7d00186aa132:Assets/Scenes/PestDialogueScene.unity
 --- !u!114 &904138603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3674,7 +3690,11 @@ MonoBehaviour:
   value1: 0
   value2: 1
   value3: 0
+<<<<<<< HEAD:Assets/Scenes/AlienQueenScene.unity
   poursource: {fileID: 1601688345}
+=======
+  poursource: {fileID: 0}
+>>>>>>> 8de6b28da047f73af67c51985b5d7d00186aa132:Assets/Scenes/PestDialogueScene.unity
 --- !u!114 &1148253038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4042,7 +4062,11 @@ MonoBehaviour:
   value1: 1
   value2: 0
   value3: 1
+<<<<<<< HEAD:Assets/Scenes/AlienQueenScene.unity
   poursource: {fileID: 1601688345}
+=======
+  poursource: {fileID: 0}
+>>>>>>> 8de6b28da047f73af67c51985b5d7d00186aa132:Assets/Scenes/PestDialogueScene.unity
 --- !u!114 &1365405524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5464,7 +5488,11 @@ MonoBehaviour:
   value1: 0
   value2: -1
   value3: 2
+<<<<<<< HEAD:Assets/Scenes/AlienQueenScene.unity
   poursource: {fileID: 1601688345}
+=======
+  poursource: {fileID: 0}
+>>>>>>> 8de6b28da047f73af67c51985b5d7d00186aa132:Assets/Scenes/PestDialogueScene.unity
 --- !u!114 &1637127344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5618,7 +5646,11 @@ MonoBehaviour:
   value1: 0
   value2: 1
   value3: 1
+<<<<<<< HEAD:Assets/Scenes/AlienQueenScene.unity
   poursource: {fileID: 1601688345}
+=======
+  poursource: {fileID: 0}
+>>>>>>> 8de6b28da047f73af67c51985b5d7d00186aa132:Assets/Scenes/PestDialogueScene.unity
 --- !u!114 &1660681817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5840,7 +5872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5438001034983214512, guid: 84467dd46a227b54083017f09051c8b8, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84467dd46a227b54083017f09051c8b8, type: 3}
@@ -6279,7 +6311,11 @@ MonoBehaviour:
   value1: -1
   value2: 2
   value3: 0
+<<<<<<< HEAD:Assets/Scenes/AlienQueenScene.unity
   poursource: {fileID: 1601688345}
+=======
+  poursource: {fileID: 0}
+>>>>>>> 8de6b28da047f73af67c51985b5d7d00186aa132:Assets/Scenes/PestDialogueScene.unity
 --- !u!114 &1937411702
 MonoBehaviour:
   m_ObjectHideFlags: 0
