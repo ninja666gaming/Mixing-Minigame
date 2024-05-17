@@ -22,6 +22,8 @@ public class DrinkResults : MonoBehaviour
     public sweatnesscounter sweatnesslevel;
     public thicknesscounter thicknesslevel;
     public static int stageCounter = 0;
+    [SerializeField] GameObject badTaste;
+    [SerializeField] GameObject goodTaste;
 
 
     // Start is called before the first frame update
@@ -52,10 +54,12 @@ public class DrinkResults : MonoBehaviour
                     if (targetAnger1 < sweatnesslevel.currentSweatness)
                     {
                         //superwin
+                        goodTaste.SetActive(true);
                         Debug.Log("Superwin_1");
                     }
                     else
                     {
+                        goodTaste.SetActive(true);
                         Debug.Log("Halfwin_1");
                     }
                 }

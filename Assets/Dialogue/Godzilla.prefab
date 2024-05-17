@@ -1,5 +1,50 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &99645269212036073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1533513064119016214}
+  - component: {fileID: 6078088920526073338}
+  m_Layer: 0
+  m_Name: BadEndingStarter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1533513064119016214
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99645269212036073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8955404393611817877}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6078088920526073338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99645269212036073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45bb1078a2fe85146a7e075513dc03cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seq: {fileID: 385253769515232514}
 --- !u!1 &246541292146880250
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,7 +142,7 @@ RectTransform:
   - {fileID: 7717969457211658615}
   - {fileID: 6081046840781743634}
   m_Father: {fileID: 8955404393611817877}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1248,6 +1293,8 @@ Transform:
   m_Children:
   - {fileID: 6085890411614329382}
   - {fileID: 2265696707418095756}
+  - {fileID: 1533513064119016214}
+  - {fileID: 7304764917599532144}
   - {fileID: 3369521145705174839}
   - {fileID: 987837442275109257}
   m_Father: {fileID: 0}
@@ -2488,7 +2535,7 @@ Transform:
   - {fileID: 7562278591881821847}
   - {fileID: 7018897805254684981}
   m_Father: {fileID: 8955404393611817877}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3859117642733402621
 GameObject:
@@ -3127,6 +3174,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obj: {fileID: 748764807259774061}
   state: 0
+--- !u!1 &6199629676552861549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7304764917599532144}
+  - component: {fileID: 1963636793947729176}
+  m_Layer: 0
+  m_Name: GoodEndingStarter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7304764917599532144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199629676552861549}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8955404393611817877}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1963636793947729176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199629676552861549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45bb1078a2fe85146a7e075513dc03cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seq: {fileID: 6026063683332175276}
 --- !u!1 &6426014894000020224
 GameObject:
   m_ObjectHideFlags: 0
@@ -3138,7 +3230,7 @@ GameObject:
   - component: {fileID: 2265696707418095756}
   - component: {fileID: 5386209667890883252}
   m_Layer: 0
-  m_Name: DialogueStarter
+  m_Name: InitialDialogueStarter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
