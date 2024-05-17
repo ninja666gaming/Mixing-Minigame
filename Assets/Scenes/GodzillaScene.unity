@@ -2703,10 +2703,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Godzilla
       objectReference: {fileID: 0}
+    - target: {fileID: 1589865440632776519, guid: 27d7597f904689240b3dbd86cf80f459, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2293441188969061949, guid: 27d7597f904689240b3dbd86cf80f459, type: 3}
       propertyPath: obj
       value: 
       objectReference: {fileID: 1228623351}
+    - target: {fileID: 3004272159233221672, guid: 27d7597f904689240b3dbd86cf80f459, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4124450542369741909, guid: 27d7597f904689240b3dbd86cf80f459, type: 3}
       propertyPath: obj
       value: 
@@ -2778,6 +2786,10 @@ PrefabInstance:
     - target: {fileID: 8955404393611817877, guid: 27d7597f904689240b3dbd86cf80f459, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9201204775748644692, guid: 27d7597f904689240b3dbd86cf80f459, type: 3}
+      propertyPath: nextScene
+      value: EndingScreen
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6249640747338025694, guid: 27d7597f904689240b3dbd86cf80f459, type: 3}
